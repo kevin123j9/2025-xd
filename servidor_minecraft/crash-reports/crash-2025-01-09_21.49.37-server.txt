@@ -1,0 +1,667 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// Shall we play a game?
+
+Time: 2025-01-09 21:49:37
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at net.minecraft.world.level.chunk.PalettedContainer.m_188064_(PalettedContainer.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.PalettedContainer.m_188071_(PalettedContainer.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.PalettedContainer$$Lambda$29342/0x00007e1efb4f68f8.apply(Unknown Source) ~[?:?] {}
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25) ~[datafixerupper-6.0.8.jar%2377!/:?] {}
+	at com.mojang.serialization.Codec$2.encode(Codec.java:76) ~[datafixerupper-6.0.8.jar%2377!/:?] {}
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14) ~[datafixerupper-6.0.8.jar%2377!/:?] {re:mixin}
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_63454_(ChunkSerializer.java:297) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:mixin:APP:fabric-registry-sync-v0.mixins.json:ChunkSerializerMixin from mod fabric_registry_sync_v0,pl:mixin:APP:fabric-data-attachment-api-v1.mixins.json:ChunkSerializerMixin from mod fabric_data_attachment_api_v1,pl:mixin:APP:architectury.mixins.json:MixinChunkSerializer from mod architectury,pl:mixin:APP:corgilib-common.mixins.json:chunk.MixinChunkSerializer from mod corgilib,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:829) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_198874_(ChunkMap.java:796) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:490) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:454) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:316) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin from mod betterendisland,pl:mixin:APP:surveyor.mixins.json:MixinServerWorld from mod surveyor,pl:mixin:APP:rootoffear.mixins.json:ServerLevelAccessor from mod rootoffear,pl:mixin:APP:immersive_weathering-common.mixins.json:ServerLevelMixin from mod immersive_weathering,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin from mod citadel,pl:mixin:APP:fabric-data-attachment-api-v1.mixins.json:ServerWorldMixin from mod fabric_data_attachment_api_v1,pl:mixin:APP:fabric-api-lookup-api-v1.mixins.json:ServerWorldMixin from mod fabric_api_lookup_api_v1,pl:mixin:APP:enchantwithmob.mixins.json:ServerLevelMixin from mod enchantwithmob,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ServerWorldMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:yungscavebiomes.mixins.json:accessor.ServerLevelAccessor from mod yungscavebiomes,pl:mixin:APP:yungscavebiomes.mixins.json:lost_caves.ServerLevelMixin from mod yungscavebiomes,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin from mod betterdeserttemples,pl:mixin:APP:mixins.bosses_of_mass_destruction.json:ExplosionMixin from mod bosses_of_mass_destruction,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin from mod blueprint,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin from mod endergetic,pl:mixin:APP:atmospheric.mixins.json:ServerLevelMixin from mod atmospheric,pl:mixin:APP:toughasnails.mixins.json:MixinServerLevel from mod toughasnails,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld from mod enhancedcelestials,pl:mixin:APP:corgilib-common.mixins.json:MixinServerLevel from mod corgilib,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins from mod betterendisland,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$28652/0x00007e1efb3e25c0.run(Unknown Source) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraft.world.level.chunk.PalettedContainer.m_188064_(PalettedContainer.java:236) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.PalettedContainer.m_188071_(PalettedContainer.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.world.level.chunk.PalettedContainer$$Lambda$29342/0x00007e1efb4f68f8.apply(Unknown Source) ~[?:?] {}
+	at com.mojang.serialization.Encoder$1.encode(Encoder.java:25) ~[datafixerupper-6.0.8.jar%2377!/:?] {}
+	at com.mojang.serialization.Codec$2.encode(Codec.java:76) ~[datafixerupper-6.0.8.jar%2377!/:?] {}
+	at com.mojang.serialization.Encoder.encodeStart(Encoder.java:14) ~[datafixerupper-6.0.8.jar%2377!/:?] {re:mixin}
+	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_63454_(ChunkSerializer.java:297) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:connector_pre_launch:A,re:classloading,pl:mixin:APP:fabric-registry-sync-v0.mixins.json:ChunkSerializerMixin from mod fabric_registry_sync_v0,pl:mixin:APP:fabric-data-attachment-api-v1.mixins.json:ChunkSerializerMixin from mod fabric_data_attachment_api_v1,pl:mixin:APP:architectury.mixins.json:MixinChunkSerializer from mod architectury,pl:mixin:APP:corgilib-common.mixins.json:chunk.MixinChunkSerializer from mod corgilib,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:829) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_198874_(ChunkMap.java:796) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140353_(ChunkMap.java:490) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ChunkMap.m_140280_(ChunkMap.java:454) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinThreadedAnvilChunkStorage from mod surveyor,pl:mixin:APP:fabric-networking-api-v1.mixins.json:accessor.ThreadedAnvilChunkStorageAccessor from mod fabric_networking_api_v1,pl:mixin:APP:smallships-common-soft.mixins.json:leashing.ChunkMapMixin from mod smallships,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ThreadedAnvilChunkStorageMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:enhancedcelestials.mixins.json:access.ChunkMapAccess from mod enhancedcelestials,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCache.java:316) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:connector_pre_launch:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:305) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin from mod betterendisland,pl:mixin:APP:surveyor.mixins.json:MixinServerWorld from mod surveyor,pl:mixin:APP:rootoffear.mixins.json:ServerLevelAccessor from mod rootoffear,pl:mixin:APP:immersive_weathering-common.mixins.json:ServerLevelMixin from mod immersive_weathering,pl:mixin:APP:glitchcore.mixins.json:MixinServerLevel from mod glitchcore,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin from mod citadel,pl:mixin:APP:fabric-data-attachment-api-v1.mixins.json:ServerWorldMixin from mod fabric_data_attachment_api_v1,pl:mixin:APP:fabric-api-lookup-api-v1.mixins.json:ServerWorldMixin from mod fabric_api_lookup_api_v1,pl:mixin:APP:enchantwithmob.mixins.json:ServerLevelMixin from mod enchantwithmob,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:ServerWorldMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:yungscavebiomes.mixins.json:accessor.ServerLevelAccessor from mod yungscavebiomes,pl:mixin:APP:yungscavebiomes.mixins.json:lost_caves.ServerLevelMixin from mod yungscavebiomes,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin from mod betterdeserttemples,pl:mixin:APP:mixins.bosses_of_mass_destruction.json:ExplosionMixin from mod bosses_of_mass_destruction,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin from mod blueprint,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin from mod endergetic,pl:mixin:APP:atmospheric.mixins.json:ServerLevelMixin from mod atmospheric,pl:mixin:APP:toughasnails.mixins.json:MixinServerLevel from mod toughasnails,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld from mod enhancedcelestials,pl:mixin:APP:corgilib-common.mixins.json:MixinServerLevel from mod corgilib,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins from mod betterendisland,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:mixin,pl:accesstransformer:B,pl:connector_pre_launch:A,re:computing_frames,pl:accesstransformer:B,pl:connector_pre_launch:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:surveyor.mixins.json:MixinMinecraftServer from mod surveyor,pl:mixin:APP:fabric-message-api-v1.mixins.json:MinecraftServerMixin from mod fabric_message_api_v1,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin from mod citadel,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftServerMixin from mod connectormod,pl:mixin:APP:fabric-lifecycle-events-v1.mixins.json:MinecraftServerMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:fabric-resource-loader-v0.mixins.json:MinecraftServerMixin from mod fabric_resource_loader_v0,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin from mod blueprint,pl:mixin:A,pl:connector_pre_launch:A}
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@18c6815
+	at java.base@17.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@18c6815
+	at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=11 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@f4b8654
+	at java.base@17.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@f4b8654
+	at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+	at java.base@17.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"Notification Thread" daemon prio=9 Id=12 RUNNABLE
+
+
+"JNA Cleaner" daemon prio=5 Id=25 WAITING on java.lang.ref.ReferenceQueue$Lock@b740365
+	at java.base@17.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@b740365
+	at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at MC-BOOTSTRAP/com.sun.jna@5.12.1/com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+
+
+"Timer hack thread" daemon prio=5 Id=26 TIMED_WAITING
+	at java.base@17.0.13/java.lang.Thread.sleep(Native Method)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.Util$9.run(Util.java:672)
+
+
+"Thread-2" daemon prio=5 Id=31 TIMED_WAITING
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"FileSystemWatchService" daemon prio=5 Id=32 RUNNABLE (in native)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"FileSystemWatchService" daemon prio=5 Id=33 RUNNABLE (in native)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"FileSystemWatchService" daemon prio=5 Id=34 RUNNABLE (in native)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"ConfigSaver" daemon prio=5 Id=35 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4e768c6f
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4e768c6f
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+	at java.base@17.0.13/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=50 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2c588974
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2c588974
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1679)
+	at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	...
+
+
+"Worker-Main-2" daemon prio=5 Id=53 TIMED_WAITING on java.util.concurrent.ForkJoinPool@7f72c38d
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7f72c38d
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-3" daemon prio=5 Id=54 WAITING on java.util.concurrent.ForkJoinPool@7f72c38d
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@7f72c38d
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Server thread" prio=5 Id=55 RUNNABLE
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_188064_(PalettedContainer.java:236)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer.m_188071_(PalettedContainer.java:65)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.PalettedContainer$$Lambda$29342/0x00007e1efb4f68f8.apply(Unknown Source)
+	at MC-BOOTSTRAP/datafixerupper@6.0.8/com.mojang.serialization.Encoder$1.encode(Encoder.java:25)
+	at MC-BOOTSTRAP/datafixerupper@6.0.8/com.mojang.serialization.Codec$2.encode(Codec.java:76)
+	at MC-BOOTSTRAP/datafixerupper@6.0.8/com.mojang.serialization.Encoder.encodeStart(Encoder.java:14)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.storage.ChunkSerializer.m_63454_(ChunkSerializer.java:297)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ChunkMap.m_140258_(ChunkMap.java:829)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=57 RUNNABLE
+
+
+"Server console handler" daemon prio=5 Id=58 RUNNABLE
+	at java.base@17.0.13/java.io.FileInputStream.read0(Native Method)
+	at java.base@17.0.13/java.io.FileInputStream.read(FileInputStream.java:228)
+	at MC-BOOTSTRAP/jline.terminal@3.12.1/org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+	at MC-BOOTSTRAP/jline.terminal@3.12.1/org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+	at MC-BOOTSTRAP/jline.terminal@3.12.1/org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+	at MC-BOOTSTRAP/jline.terminal@3.12.1/org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+	at MC-BOOTSTRAP/jline.reader@3.12.1/org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+	at MC-BOOTSTRAP/jline.reader@3.12.1/org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=60 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"FileSystemWatchService" daemon prio=5 Id=61 RUNNABLE (in native)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"FileSystemWatchService" daemon prio=5 Id=62 RUNNABLE (in native)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.13/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Server Watchdog" daemon prio=5 Id=68 RUNNABLE
+	at java.management@17.0.13/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:528)
+	at java.management@17.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:516)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:41)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"LanServerPinger #1" daemon prio=5 Id=69 TIMED_WAITING
+	at java.base@17.0.13/java.lang.Thread.sleep(Native Method)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.server.LanServerPinger.run(LanServerPinger.java:48)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=70 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=74 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=75 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #4" daemon prio=5 Id=76 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #5" daemon prio=5 Id=77 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:182)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:302)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:366)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Citadel Pathfinding Worker #0" daemon prio=10 Id=81 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54b6982d
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54b6982d
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+	at java.base@17.0.13/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+	at java.base@17.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+	at java.base@17.0.13/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base@17.0.13/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	...
+
+
+"Netty Epoll Server IO #6" daemon prio=5 Id=83 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"Netty Epoll Server IO #7" daemon prio=5 Id=84 RUNNABLE (in native)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native Method)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:306)
+	at MC-BOOTSTRAP/io.netty.transport.classes.epoll@4.1.82.Final/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:363)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at MC-BOOTSTRAP/io.netty.common@4.1.82.Final/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+"IO-Worker-69" prio=5 Id=214 RUNNABLE
+	at java.base@17.0.13/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base@17.0.13/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:68)
+	at java.base@17.0.13/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:130)
+	at java.base@17.0.13/sun.nio.ch.IOUtil.write(IOUtil.java:97)
+	at java.base@17.0.13/sun.nio.ch.IOUtil.write(IOUtil.java:67)
+	at java.base@17.0.13/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:878)
+	at java.base@17.0.13/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:864)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.chunk.storage.RegionFile.m_63654_(RegionFile.java:396)
+	-  locked net.minecraft.world.level.chunk.storage.RegionFile@2e597320
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@4060cc49
+
+
+"IO-Worker-70" prio=5 Id=215 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@46225cb6
+	at java.base@17.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@46225cb6
+	at java.base@17.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.13/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.13/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.13/java.lang.Thread.run(Thread.java:840)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerWatchdog.run(ServerWatchdog.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23469!/:?] {re:classloading,pl:connector_pre_launch:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 3, entities: 262,262,166,1496,1496,0,0 [quark:toretoise:20,minecraft:zombie:16,born_in_chaos_v1:thornshell_crab:15,quark:stoneling:15,aquaculture:atlantic_herring:11], block_entities: 926 [minecraft:campfire:223,minecraft:mob_spawner:155,yungscavebiomes:rare_ice:98,minecraft:sculk_sensor:96,quark:monster_box:64], block_ticks: 24, fluid_ticks: 23, chunk_source: Chunks[S] W: 4040 E: 262,262,166,1496,1496,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 17.0.13, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 2916517680 bytes (2781 MiB) / 8363442176 bytes (7976 MiB) up to 12884901888 bytes (12288 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7990.52
+	Virtual memory used (MB): 13995.82
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx12G
+	Server Running: true
+	Player Count: 3 / 20; [ServerPlayer['Jos3enriq'/33158, l='ServerLevel[world]', x=-277.26, y=70.00, z=26.77], ServerPlayer['kevin123j2'/43993, l='ServerLevel[world]', x=-264.56, y=67.11, z=-12.36], ServerPlayer['davisdrt'/45058, l='ServerLevel[world]', x=-298.28, y=67.02, z=15.78]]
+	Data Packs: vanilla, mod:betterdungeons, mod:stackablepotions (incompatible), mod:underground_villages, mod:riverredux (incompatible), mod:playeranimator (incompatible), mod:fabric_rendering_fluids_v1, mod:fabric_models_v0, mod:valhelsia_furniture (incompatible), mod:stalwart_dungeons, mod:aquaculturedelight, mod:fabric_convention_tags_v1, mod:fabric_command_api_v1, mod:fabric_block_view_api_v2, mod:fabric_command_api_v2, mod:yungsapi, mod:bagus_lib, mod:sniffsweapons, mod:kambrik (incompatible), mod:guardvillagers (incompatible), mod:blocky_siege, mod:harderspawners, mod:medievalend (incompatible), mod:surveyor, mod:pickupnotifier, mod:fabric_screen_api_v1, mod:swampier_swamps (incompatible), mod:immersive_armors (incompatible), mod:jeresources, mod:antique_atlas, mod:betterfortresses, mod:cloth_config (incompatible), mod:sound_physics_remastered (incompatible), mod:geophilic, mod:structure_gel, mod:advancementplaques (incompatible), mod:fabric_game_rule_api_v1, mod:gml, mod:explorify (incompatible), mod:dungeons_plus, mod:unusualend, mod:resourcefulconfig (incompatible), mod:fishingreal (incompatible), mod:highlighter (incompatible), mod:curios (incompatible), mod:rightclickharvest (incompatible), mod:commongroovylibrary (incompatible), mod:workers (incompatible), mod:yungsextras, mod:mr_dungeons_andtaverns (incompatible), mod:villagersellanimals, mod:overweight_farming (incompatible), mod:fabric_entity_events_v1, mod:rootoffear, mod:betterendisland, mod:fabric_rendering_data_attachment_v1, mod:trials, mod:illageandspillage, mod:fastleafdecay, mod:bettermineshafts, mod:betterjungletemples, mod:fabric_client_tags_api_v1, mod:fabric_dimensions_v1, mod:mowziesmobs, mod:mutantmonsters, mod:formationsnether, mod:folk_sisby_kaleido_config, mod:fabric_model_loading_api_v1, mod:jei, mod:visualworkbench, mod:fabric_screen_handler_api_v1, mod:caelus (incompatible), mod:immersive_weathering (incompatible), mod:fabric_rendering_v1, mod:zombiesmore, mod:realmrpg_skeletons, mod:fabric_renderer_indigo, mod:mobplayeranimator (incompatible), mod:bettermobcombat (incompatible), mod:glitchcore (incompatible), mod:respawninganimals, mod:imst, mod:formations, mod:fabric_particles_v1, mod:puzzlesaccessapi, mod:dungeons_arise_seven_seas, mod:forge, mod:hunters_return, mod:infernalmobs (incompatible), mod:hearths (incompatible), mod:undead_revamp2, mod:terrablender, mod:fabric_api_base, mod:bettercombat (incompatible), mod:fabric_block_api_v1, mod:fabric_resource_conditions_api_v1, mod:kotlinforforge (incompatible), mod:farmersrespite, mod:fabric_item_group_api_v1, mod:u_desert, mod:zeta (incompatible), mod:fabric_registry_sync_v0, mod:tlc (incompatible), mod:structory_towers, mod:oceansdelight (incompatible), mod:appleskin (incompatible), mod:fabric_recipe_api_v1, mod:fabric_object_builder_api_v1, mod:kirin, mod:puzzleslib, mod:aquaculture, mod:fabric_sound_api_v1, mod:fabric_message_api_v1, mod:aquamirae (incompatible), mod:cristellib (incompatible), mod:fabric_renderer_api_v1, mod:betterwitchhuts, mod:geckolib, mod:fabric_item_api_v1, mod:illagerinvasion, mod:betteroceanmonuments, mod:villagernames, mod:citadel (incompatible), mod:alexsmobs (incompatible), mod:iceandfire, mod:fabric_data_attachment_api_v1, mod:mixinextras (incompatible), mod:royalvariations, mod:tough_as_nails_compat, mod:takesapillage (incompatible), mod:medieval_buildings (incompatible), mod:additionalstructures, mod:fabric_api, mod:fabric_content_registries_v0, mod:enemyexpansion, mod:farmersdelight, mod:chefsdelight (incompatible), mod:ends_delight, mod:ambientsounds, mod:fabric_api_lookup_api_v1, mod:cataclysmiccombat, mod:valhelsia_structures (incompatible), mod:eeeabsmobs, mod:born_in_chaos_v1, mod:lionfishapi (incompatible), mod:dungeons_enhanced, mod:bountiful (incompatible), mod:cataclysm (incompatible), mod:collective, mod:cerbons_api, mod:connectormod, mod:betterstrongholds, mod:resourcefullib (incompatible), mod:eatinganimation (incompatible), mod:architectury (incompatible), mod:doapi (incompatible), mod:beachparty (incompatible), mod:bloomingnature, mod:fabric_loot_api_v2, mod:mru (incompatible), mod:fabric_networking_api_v1, mod:enchantwithmob, mod:smallships (incompatible), mod:hopo (incompatible), mod:t_and_t (incompatible), mod:fabric_lifecycle_events_v1, mod:mowzie_respawner, mod:fabric_key_binding_api_v1, mod:fabric_transfer_api_v1, mod:amendments (incompatible), mod:mss (incompatible), mod:mowzies_cataclysm, mod:conjurer_illager (incompatible), mod:fabric_resource_loader_v0, mod:obscure_api (incompatible), mod:yungscavebiomes, mod:fabric_mining_level_api_v1, mod:fromtheshadows (incompatible), mod:breezy (incompatible), mod:mr_lukis_grandcapitals, mod:call_of_yucutan, mod:betterdeserttemples, mod:hopour (incompatible), mod:bosses_of_mass_destruction, mod:blueprint, mod:boatload, mod:environmental (incompatible), mod:savage_and_ravage (incompatible), mod:clayworks, mod:upgrade_aquatic (incompatible), mod:endergetic (incompatible), mod:neapolitan (incompatible), mod:personality, mod:autumnity (incompatible), mod:incubation (incompatible), mod:buzzier_bees (incompatible), mod:unwrecked_ships_plus (incompatible), mod:tlskincape (incompatible), mod:fabric_transitive_access_wideners_v1, mod:illager_additions (incompatible), mod:alexscaves, mod:moonlight (incompatible), mod:fabric_blockrenderlayer_v1, mod:jade (incompatible), mod:hoporp (incompatible), mod:displaydelight, mod:creativecore, mod:nethersdelight, mod:atmospheric (incompatible), mod:ribbits (incompatible), mod:iceberg (incompatible), mod:spartanshields, mod:quark (incompatible), mod:woodworks (incompatible), mod:abnormals_delight, mod:irons_spellbooks, mod:toughasnails (incompatible), mod:miners_delight (incompatible), mod:inventoryhud (incompatible), mod:fabric_biome_api_v1, mod:wabi_sabi_structures, mod:bettertridents, mod:mvs (incompatible), mod:creeperoverhaul, mod:enhancedcelestials, mod:corgilib, mod:valhelsia_core (incompatible), mod:realmrpg_quests, mod:fabric_data_generation_api_v1, mod:fabric_events_interaction_v0, Immersive Weathering Generated Pack, bushy_leaves, fabric, mutantmonsters:biome_modifications
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	Sinytra Connector: 1.0.0-beta.46+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| surveyor-0.6.25+1.20_mapped_srg_1.20.1.jar         | Surveyor Map Framework         | surveyor                       | 0.6.251.20           |
+		| antique-atlas-2.10.1+1.20_mapped_srg_1.20.1.jar    | Antique Atlas                  | antique_atlas                  | 2.10.11.20           |
+		| surveyor-0.6.25+1.20$kaleido-config-0.3.1+1.3.2_ma | kaleido-config                 | folk_sisby_kaleido_config      | 0.3.11.3.2           |
+		| PresenceFootsteps-1.10.1+1.20.1$kirin-1.15.6+1.20. | Kirin UI                       | kirin                          | 1.15.61.20.1         |
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.3.7.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar mixin-transmogrifier TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar connector_loader TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@null
+		lowcodefml@null
+		minecraft@1.0
+		gml@4.0.9
+		kotlinforforge@4.11.0
+	Mod List: 
+		YungsBetterDungeons-1.20-Forge-4.0.4.jar          |YUNG's Better Dungeons        |betterdungeons                |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		Stackable Potions-forge-1.20.1-1.0.0.jar          |Stackable Potions             |stackablepotions              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		UndergroundVillages-forge-1.20.1-2.1.0.jar        |Underground Villages Mod      |underground_villages          |2.1.0               |DONE      |Manifest: NOSIGNATURE
+		riverredux-0.3.1.jar                              |RiverRedux                    |riverredux                    |0.3.1               |DONE      |Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-fluids-v1-3.0.28+4ac5e37a77.jar  |Fabric Rendering Fluids (v1)  |fabric_rendering_fluids_v1    |3.0.28+4ac5e37a77   |DONE      |Manifest: NOSIGNATURE
+		fabric-models-v0-0.4.2+7c3892a477.jar             |Fabric Models (v0)            |fabric_models_v0              |0.4.2+7c3892a477    |DONE      |Manifest: NOSIGNATURE
+		valhelsia_furniture-forge-1.20.1-1.1.3.jar        |Valhelsia Furniture           |valhelsia_furniture           |1.1.3               |DONE      |Manifest: NOSIGNATURE
+		stalwart-dungeons-1.20.1-1.2.8 (1).jar            |Stalwart Dungeons             |stalwart_dungeons             |1.2.8               |DONE      |Manifest: NOSIGNATURE
+		aquaculture_delight_1.0.0_forge_1.20.1.jar        |Aquaculture Delight           |aquaculturedelight            |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-convention-tags-v1-1.5.5+fa3d1c0177.jar    |Fabric Convention Tags        |fabric_convention_tags_v1     |1.5.5+fa3d1c0177    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v1-1.2.34+f71b366f77.jar       |Fabric Command API (v1)       |fabric_command_api_v1         |1.2.34+f71b366f77   |DONE      |Manifest: NOSIGNATURE
+		fabric-block-view-api-v2-1.0.1+0767707077.jar     |Fabric BlockView API (v2)     |fabric_block_view_api_v2      |1.0.1+0767707077    |DONE      |Manifest: NOSIGNATURE
+		fabric-command-api-v2-2.2.13+561530ec77.jar       |Fabric Command API (v2)       |fabric_command_api_v2         |2.2.13+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.6.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.6    |DONE      |Manifest: NOSIGNATURE
+		bagus_lib-1.20.1-5.3.0.jar                        |Bagus Lib                     |bagus_lib                     |1.20.1-5.3.0        |DONE      |Manifest: NOSIGNATURE
+		sniffsweapons-1.3.2-1.20.1.jar                    |Sniff's Weapons               |sniffsweapons                 |1.3.2-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		Kambrik-6.1.1+1.20.1-forge.jar                    |Kambrik                       |kambrik                       |6.1.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		guardvillagers-1.20.1-1.6.9.jar                   |Guard Villagers               |guardvillagers                |1.20.1-1.6.9        |DONE      |Manifest: NOSIGNATURE
+		blocky_siege-6.1.92-1.20.1 (1).jar                |Blocky Siege                  |blocky_siege                  |6.1.92              |DONE      |Manifest: NOSIGNATURE
+		harderspawners-1.20-46.25.3 (1).jar               |Harder Spawners Mod           |harderspawners                |46.25.3             |DONE      |Manifest: NOSIGNATURE
+		forge-medievalend-1.0.1.jar                       |Medieval Buildings [The End Ed|medievalend                   |1.0.1               |DONE      |Manifest: NOSIGNATURE
+		surveyor-0.6.25+1.20_mapped_srg_1.20.1.jar        |Surveyor Map Framework        |surveyor                      |0.6.251.20          |DONE      |Manifest: NOSIGNATURE
+		PickUpNotifier-v8.0.0-1.20.1-Forge.jar            |Pick Up Notifier              |pickupnotifier                |8.0.0               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		fabric-screen-api-v1-2.0.8+45a670a577.jar         |Fabric Screen API (v1)        |fabric_screen_api_v1          |2.0.8+45a670a577    |DONE      |Manifest: NOSIGNATURE
+		swampier_swamps-1.20-4.0.0.jar                    |Swampier Swamps               |swampier_swamps               |1.20-4.0.0          |DONE      |Manifest: NOSIGNATURE
+		immersive_armors-1.6.1+1.20.1-forge (1).jar       |Immersive Armors              |immersive_armors              |1.6.1+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		JustEnoughResources-1.20.1-1.4.0.247.jar          |Just Enough Resources         |jeresources                   |1.4.0.247           |DONE      |Manifest: NOSIGNATURE
+		antique-atlas-2.10.1+1.20_mapped_srg_1.20.1.jar   |Antique Atlas                 |antique_atlas                 |2.10.11.20          |DONE      |Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar  |YUNG's Better Nether Fortresse|betterfortresses              |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.20.1-1.4.8.jar   |Sound Physics Remastered      |sound_physics_remastered      |1.20.1-1.4.8        |DONE      |Manifest: NOSIGNATURE
+		Geophilic v3.1.5 f15-61.jar                       |Geophilic                     |geophilic                     |3.1.5               |DONE      |Manifest: NOSIGNATURE
+		structure_gel-1.20.1-2.16.2 (1).jar               |Structure Gel API             |structure_gel                 |2.16.2              |DONE      |Manifest: NOSIGNATURE
+		AdvancementPlaques-1.20.1-forge-1.6.7.jar         |Advancement Plaques           |advancementplaques            |1.6.7               |DONE      |Manifest: NOSIGNATURE
+		fabric-game-rule-api-v1-1.0.40+683d4da877.jar     |Fabric Game Rule API (v1)     |fabric_game_rule_api_v1       |1.0.40+683d4da877   |DONE      |Manifest: NOSIGNATURE
+		mod-4.0.9.jar                                     |GroovyModLoader               |gml                           |4.0.9               |DONE      |Manifest: NOSIGNATURE
+		Explorify v1.6.2 f10-48.jar                       |Explorify                     |explorify                     |1.6.2               |DONE      |Manifest: NOSIGNATURE
+		dungeons_plus-1.20.1-1.5.0.jar                    |Dungeons Plus                 |dungeons_plus                 |1.5.0               |DONE      |Manifest: NOSIGNATURE
+		unusualend-2.2.3-forge-1.20.1.jar                 |Unusual End                   |unusualend                    |2.2.3               |DONE      |Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.20.1-2.1.2.jar          |Resourcefulconfig             |resourcefulconfig             |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		Fishingreal-1.20.1-1.7.2.jar                      |Fishingreal                   |fishingreal                   |1.20.1-1.7.2        |DONE      |Manifest: NOSIGNATURE
+		Highlighter-1.20.1-forge-1.1.9.jar                |Highlighter                   |highlighter                   |1.1.9               |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.11.0+1.20.1.jar                    |Curios API                    |curios                        |5.11.0+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		right-click-harvest-3.2.3+1.20.1-forge.jar        |Right Click Harvest           |rightclickharvest             |3.2.3+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		cgl-1.20-forge-0.3.3.jar                          |CommonGroovyLibrary           |commongroovylibrary           |0.3.3               |DONE      |Manifest: NOSIGNATURE
+		workers-1.20.1-1.7.8.jar                          |Workers Mod                   |workers                       |1.7.8               |DONE      |Manifest: NOSIGNATURE
+		YungsExtras-1.20-Forge-4.0.3.jar                  |YUNG's Extras                 |yungsextras                   |1.20-Forge-4.0.3    |DONE      |Manifest: NOSIGNATURE
+		dungeons-and-taverns-3.0.3.f[Forge].jar           |Dungeons and Taverns          |mr_dungeons_andtaverns        |3.0.3.f             |DONE      |Manifest: NOSIGNATURE
+		nocube's_villagers_sell_animals_1.2.1_forge_1.20.1|Villagers Sell Animals (by NoC|villagersellanimals           |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		overweightfarming-1.20.1-2.1.0-forge.jar          |Overweight Farming            |overweight_farming            |1.20.1-2.1.0-forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-entity-events-v1-1.6.0+6274ab9d77.jar      |Fabric Entity Events (v1)     |fabric_entity_events_v1       |1.6.0+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		rootoffear-1.20.1-1.0.10.jar                      |The Root of Fear              |rootoffear                    |1.0.10              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterEndIsland-1.20-Forge-2.0.6.jar         |YUNG's Better End Island      |betterendisland               |1.20-Forge-2.0.6    |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-data-attachment-v1-0.3.37+a6081af|Fabric Rendering Data Attachme|fabric_rendering_data_attachme|0.3.37+a6081afc77   |DONE      |Manifest: NOSIGNATURE
+		Trials-2.3.3.jar                                  |Trials Chambers               |trials                        |2.3.3               |DONE      |Manifest: NOSIGNATURE
+		illageandspillagerespillaged-1.2.2.jar            |Illage and Spillage: Respillag|illageandspillage             |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-32.jar                              |Fast Leaf Decay               |fastleafdecay                 |32                  |DONE      |Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.20-Forge-4.0.4 (1).jar    |YUNG's Better Mineshafts      |bettermineshafts              |1.20-Forge-4.0.4    |DONE      |Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.20-Forge-2.0.5.jar     |YUNG's Better Jungle Temples  |betterjungletemples           |1.20-Forge-2.0.5    |DONE      |Manifest: NOSIGNATURE
+		fabric-client-tags-api-v1-1.1.2+5d6761b877.jar    |Fabric Client Tags            |fabric_client_tags_api_v1     |1.1.2+5d6761b877    |DONE      |Manifest: NOSIGNATURE
+		fabric-dimensions-v1-2.1.54+8005d10d77.jar        |Fabric Dimensions API (v1)    |fabric_dimensions_v1          |2.1.54+8005d10d77   |DONE      |Manifest: NOSIGNATURE
+		mowziesmobs-1.6.5 (1).jar                         |Mowzie's Mobs                 |mowziesmobs                   |1.6.4               |DONE      |Manifest: NOSIGNATURE
+		MutantMonsters-v8.0.7-1.20.1-Forge (1).jar        |Mutant Monsters               |mutantmonsters                |8.0.7               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		formationsnether-1.0.5.jar                        |Formations Nether             |formationsnether              |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		surveyor-0.6.25+1.20$kaleido-config-0.3.1+1.3.2_ma|kaleido-config                |folk_sisby_kaleido_config     |0.3.11.3.2          |DONE      |Manifest: NOSIGNATURE
+		fabric-model-loading-api-v1-1.0.3+6274ab9d77.jar  |Fabric Model Loading API (v1) |fabric_model_loading_api_v1   |1.0.3+6274ab9d77    |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.105 (1).jar              |Just Enough Items             |jei                           |15.20.0.105         |DONE      |Manifest: NOSIGNATURE
+		VisualWorkbench-v8.0.0-1.20.1-Forge.jar           |Visual Workbench              |visualworkbench               |8.0.0               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		fabric-screen-handler-api-v1-1.3.30+561530ec77.jar|Fabric Screen Handler API (v1)|fabric_screen_handler_api_v1  |1.3.30+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-3.2.0+1.20.1.jar                     |Caelus API                    |caelus                        |3.2.0+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		immersive_weathering-1.20.1-2.0.3-forge.jar       |Immersive Weathering          |immersive_weathering          |1.20.1-2.0.3        |DONE      |Manifest: NOSIGNATURE
+		fabric-rendering-v1-3.0.8+66e9a48f77.jar          |Fabric Rendering (v1)         |fabric_rendering_v1           |3.0.8+66e9a48f77    |DONE      |Manifest: NOSIGNATURE
+		zombiesmore-2.1.5-forge-1.20.1.jar                |ZombiesMore                   |zombiesmore                   |2.0.0               |DONE      |Manifest: NOSIGNATURE
+		realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar|Realm RPG: Fallen Adventurers |realmrpg_skeletons            |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-indigo-1.5.2+b5b2da4177.jar       |Fabric Renderer - Indigo      |fabric_renderer_indigo        |1.5.2+b5b2da4177    |DONE      |Manifest: NOSIGNATURE
+		mobplayeranimator-forge-1.20.1-1.3.2-all.jar      |Mob Player Animator           |mobplayeranimator             |1.3.2               |DONE      |Manifest: NOSIGNATURE
+		bettermobcombat-forge-1.20.1-1.2.4-all.jar        |Better Mob Combat             |bettermobcombat               |1.2.4               |DONE      |Manifest: NOSIGNATURE
+		GlitchCore-forge-1.20.1-0.0.1.1.jar               |GlitchCore                    |glitchcore                    |0.0.1.1             |DONE      |Manifest: NOSIGNATURE
+		RespawningAnimals-v8.2.1-1.20.1-Forge.jar         |Respawning Animals            |respawninganimals             |8.2.1               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		imst-2.1.0 (1).jar                                |Immersive Structures          |imst                          |2.1.0               |DONE      |Manifest: NOSIGNATURE
+		formations-1.0.3-forge-mc1.20.2.jar               |Formations                    |formations                    |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		fabric-particles-v1-1.1.2+78e1ecb877.jar          |Fabric Particles (v1)         |fabric_particles_v1           |1.1.2+78e1ecb877    |DONE      |Manifest: NOSIGNATURE
+		puzzlesaccessapi-forge-8.0.7.jar                  |Puzzles Access Api            |puzzlesaccessapi              |8.0.7               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar     |When Dungeons Arise: Seven Sea|dungeons_arise_seven_seas     |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.3.7-universal.jar                 |Forge                         |forge                         |47.3.7              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		hunters_return-1.20.1-11.6.1.jar                  |Hunters Returns               |hunters_return                |1.20.1-11.6.1       |DONE      |Manifest: NOSIGNATURE
+		infernalmobs-1.20.1.3 (1).jar                     |Infernal Mobs                 |infernalmobs                  |1.20.1.3            |DONE      |Manifest: NOSIGNATURE
+		Hearths v1.0.2 f12-61.jar                         |Hearths                       |hearths                       |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: NOSIGNATURE
+		THEUNDEADREVAMPED_1.4f_1.20.1(Bug Fixes).jar      |Undead_revamp2                |undead_revamp2                |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		TerraBlender-forge-1.20.1-3.0.1.7.jar             |TerraBlender                  |terrablender                  |3.0.1.7             |DONE      |Manifest: NOSIGNATURE
+		fabric-api-base-0.4.31+ef105b4977.jar             |Fabric API Base               |fabric_api_base               |0.4.31+ef105b4977   |DONE      |Manifest: NOSIGNATURE
+		bettercombat-forge-1.8.6+1.20.1.jar               |Better Combat                 |bettercombat                  |1.8.6+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		fabric-block-api-v1-1.0.11+0e6cb7f777.jar         |Fabric Block API (v1)         |fabric_block_api_v1           |1.0.11+0e6cb7f777   |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-conditions-api-v1-2.3.8+9ad825cd77|Fabric Resource Conditions API|fabric_resource_conditions_api|2.3.8+9ad825cd77    |DONE      |Manifest: NOSIGNATURE
+		kffmod-4.11.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.11.0              |DONE      |Manifest: NOSIGNATURE
+		farmersrespite-1.20.1-2.1.2.jar                   |Farmer's Respite              |farmersrespite                |1.20.1-2.1          |DONE      |Manifest: NOSIGNATURE
+		fabric-item-group-api-v1-4.0.12+c9161c2d77.jar    |Fabric Item Group API (v1)    |fabric_item_group_api_v1      |4.0.12+c9161c2d77   |DONE      |Manifest: NOSIGNATURE
+		u_desert-1.3.1+mc1.20-1.20.4.jar                  |Unnamed Desert                |u_desert                      |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		Zeta-1.0-24.jar                                   |Zeta                          |zeta                          |1.0-24              |DONE      |Manifest: NOSIGNATURE
+		fabric-registry-sync-v0-2.3.3+1c0ea72177.jar      |Fabric Registry Sync (v0)     |fabric_registry_sync_v0       |2.3.3+1c0ea72177    |DONE      |Manifest: NOSIGNATURE
+		tlc_forge-1.0.3-R-1.20.X.jar                      |The Lost Castle               |tlc                           |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		Structory_Towers_1.20.x_v1.0.7.jar                |Structory: Towers             |structory_towers              |1.0.7               |DONE      |Manifest: NOSIGNATURE
+		oceansdelight-1.0.2-1.20.jar                      |Ocean's Delight               |oceansdelight                 |1.0.2-1.20          |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		fabric-recipe-api-v1-1.0.21+514a076577.jar        |Fabric Recipe API (v1)        |fabric_recipe_api_v1          |1.0.21+514a076577   |DONE      |Manifest: NOSIGNATURE
+		fabric-object-builder-api-v1-11.1.3+2174fc8477.jar|Fabric Object Builder API (v1)|fabric_object_builder_api_v1  |11.1.3+2174fc8477   |DONE      |Manifest: NOSIGNATURE
+		PresenceFootsteps-1.10.1+1.20.1$kirin-1.15.6+1.20.|Kirin UI                      |kirin                         |1.15.61.20.1        |DONE      |Manifest: NOSIGNATURE
+		PuzzlesLib-v8.1.25-1.20.1-Forge.jar               |Puzzles Lib                   |puzzleslib                    |8.1.25              |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Aquaculture-1.20.1-2.5.3.jar                      |Aquaculture 2                 |aquaculture                   |2.5.3               |DONE      |Manifest: NOSIGNATURE
+		fabric-sound-api-v1-1.0.13+4f23bd8477.jar         |Fabric Sound API (v1)         |fabric_sound_api_v1           |1.0.13+4f23bd8477   |DONE      |Manifest: NOSIGNATURE
+		fabric-message-api-v1-5.1.9+52cc178c77.jar        |Fabric Message API (v1)       |fabric_message_api_v1         |5.1.9+52cc178c77    |DONE      |Manifest: NOSIGNATURE
+		aquamirae-6.API15.jar                             |Aquamirae                     |aquamirae                     |6.API15             |DONE      |Manifest: NOSIGNATURE
+		cristellib-1.1.6-forge.jar                        |Cristel Lib                   |cristellib                    |1.1.6               |DONE      |Manifest: NOSIGNATURE
+		fabric-renderer-api-v1-3.2.1+cf68abbe77.jar       |Fabric Renderer API (v1)      |fabric_renderer_api_v1        |3.2.1+cf68abbe77    |DONE      |Manifest: NOSIGNATURE
+		YungsBetterWitchHuts-1.20-Forge-3.0.3.jar         |YUNG's Better Witch Huts      |betterwitchhuts               |1.20-Forge-3.0.3    |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.20.1-4.7.jar                     |GeckoLib 4                    |geckolib                      |4.7                 |DONE      |Manifest: NOSIGNATURE
+		fabric-item-api-v1-2.1.28+4d0bbcfa77.jar          |Fabric Item API (v1)          |fabric_item_api_v1            |2.1.28+4d0bbcfa77   |DONE      |Manifest: NOSIGNATURE
+		IllagerInvasion-v8.0.6-1.20.1-Forge.jar           |Illager Invasion              |illagerinvasion               |8.0.6               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar    |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.20-Forge-3.0.4    |DONE      |Manifest: NOSIGNATURE
+		villagernames-1.20.1-8.1.jar                      |Villager Names                |villagernames                 |8.1                 |DONE      |Manifest: NOSIGNATURE
+		citadel-2.6.1-1.20.1.jar                          |Citadel                       |citadel                       |2.6.1               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.22.9.jar                              |Alex's Mobs                   |alexsmobs                     |1.22.9              |DONE      |Manifest: NOSIGNATURE
+		iceandfire-2.1.13-1.20.1-beta-5.jar               |Ice and Fire                  |iceandfire                    |2.1.13-1.20.1       |DONE      |Manifest: NOSIGNATURE
+		fabric-data-attachment-api-v1-1.0.0+30ef839e77.jar|Fabric Data Attachment API (v1|fabric_data_attachment_api_v1 |1.0.0+30ef839e77    |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		royal_variations_[Forge]_1.20.1_1.0.jar           |Royal Variations              |royalvariations               |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		tough_as_nails_compat-1.0.5-1.20.1.jar            |Tough As Nails Compat         |tough_as_nails_compat         |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		takesapillage-1.0.3-1.20.1.jar                    |It Takes A Pillage            |takesapillage                 |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		medieval_buildings-forge-1.0.2.jar                |Medieval Buildings            |medieval_buildings            |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		AdditionalStructures-1.20.x-(v.4.2.2).jar         |Additional Structures         |additionalstructures          |4.2.2               |DONE      |Manifest: NOSIGNATURE
+		fabric-api-0.92.2+1.11.9+1.20.1.jar               |Forgified Fabric API          |fabric_api                    |0.92.2+1.11.9+1.20.1|DONE      |Manifest: NOSIGNATURE
+		fabric-content-registries-v0-4.0.11+a670df1e77.jar|Fabric Content Registries (v0)|fabric_content_registries_v0  |4.0.11+a670df1e77   |DONE      |Manifest: NOSIGNATURE
+		enemyexpansion-2.3.1-forge-1.20.1.jar             |Enemy Expansion               |enemyexpansion                |2.3.1               |DONE      |Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.6.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.6        |DONE      |Manifest: NOSIGNATURE
+		chefs-delight-1.0.3-forge-1.20.1.jar              |Chefs Delight                 |chefsdelight                  |1.0.3-forge-1.20.1  |DONE      |Manifest: NOSIGNATURE
+		ends_delight-1.20.1-2.5.jar                       |End's Delight                 |ends_delight                  |2.5                 |DONE      |Manifest: NOSIGNATURE
+		AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar           |AmbientSounds                 |ambientsounds                 |6.1.4               |DONE      |Manifest: NOSIGNATURE
+		fabric-api-lookup-api-v1-1.6.36+67f9824077.jar    |Fabric API Lookup API (v1)    |fabric_api_lookup_api_v1      |1.6.36+67f9824077   |DONE      |Manifest: NOSIGNATURE
+		cataclysmiccombat-1.4.jar                         |Cataclysmic Combat            |cataclysmiccombat             |1.4                 |DONE      |Manifest: NOSIGNATURE
+		valhelsia_structures-forge-1.20.1-1.1.2.jar       |Valhelsia Structures          |valhelsia_structures          |1.20.1-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		eeeabsmobs-1.20.1-0.96.1.jar                      |EEEAB's Mobs                  |eeeabsmobs                    |1.20.1-0.96.1       |DONE      |Manifest: NOSIGNATURE
+		born_in_chaos_[Forge]1.20.1_1.5.2 (1).jar         |Born in Chaos                 |born_in_chaos_v1              |1.5.2               |DONE      |Manifest: NOSIGNATURE
+		lionfishapi-2.4-Fix.jar                           |LionfishAPI                   |lionfishapi                   |2.4-Fix             |DONE      |Manifest: NOSIGNATURE
+		dungeons_enhanced-1.20.1-5.3.0.jar                |Dungeons Enhanced             |dungeons_enhanced             |5.3.0               |DONE      |Manifest: NOSIGNATURE
+		Bountiful-6.0.4+1.20.1-forge.jar                  |Bountiful                     |bountiful                     |6.0.4+1.20.1        |DONE      |Manifest: NOSIGNATURE
+		L_Enders_Cataclysm-2.27 - 1.20.1.jar              |Cataclysm Mod                 |cataclysm                     |2.27                |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.1-7.87.jar                        |Collective                    |collective                    |7.87                |DONE      |Manifest: NOSIGNATURE
+		CerbonsAPI-Forge-1.20.1-1.1.0.jar                 |Cerbons API                   |cerbons_api                   |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		Connector-1.0.0-beta.46+1.20.1-mod.jar            |Connector                     |connectormod                  |1.0.0-beta.46+1.20.1|DONE      |Manifest: NOSIGNATURE
+		YungsBetterStrongholds-1.20-Forge-4.0.3.jar       |YUNG's Better Strongholds     |betterstrongholds             |1.20-Forge-4.0.3    |DONE      |Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20.1-2.1.20.jar            |Resourceful Lib               |resourcefullib                |2.1.20              |DONE      |Manifest: NOSIGNATURE
+		eatinganimation-1.20.1-5.1.0.jar                  |Eating Animation              |eatinganimation               |5.1.0               |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		letsdo-API-forge-1.2.15-forge.jar                 |[Let's Do] API                |doapi                         |1.2.15              |DONE      |Manifest: NOSIGNATURE
+		letsdo-beachparty-forge-1.1.5.jar                 |[Let's Do] Beachparty         |beachparty                    |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		letsdo-bloomingnature-forge-1.0.9.jar             |[Let's Do] BloomingNature     |bloomingnature                |1.0.9               |DONE      |Manifest: NOSIGNATURE
+		fabric-loot-api-v2-1.2.1+eb28f93e77.jar           |Fabric Loot API (v2)          |fabric_loot_api_v2            |1.2.1+eb28f93e77    |DONE      |Manifest: NOSIGNATURE
+		MRU-1.0.4+1.20.1+forge.jar                        |Mineblock's Repeated Utilities|mru                           |1.0.4+1.20.1+forge  |DONE      |Manifest: NOSIGNATURE
+		fabric-networking-api-v1-1.3.11+503a202477.jar    |Fabric Networking API (v1)    |fabric_networking_api_v1      |1.3.11+503a202477   |DONE      |Manifest: NOSIGNATURE
+		enchantwithmob-1.20.1-11.13.1.jar                 |EnchantWithMob                |enchantwithmob                |1.20.1-11.13.1      |DONE      |Manifest: NOSIGNATURE
+		smallships-forge-1.20.1-2.0.0-b1.4.jar            |Small Ships                   |smallships                    |2.0.0-b1.4          |DONE      |Manifest: NOSIGNATURE
+		HopoBetterMineshaft-[1.20.2-1.20.4]-1.2.2b.jar    |HopoBetterMineshaft           |hopo                          |1.2.2               |DONE      |Manifest: NOSIGNATURE
+		Towns-and-Towers-1.12-Fabric+Forge.jar            |Towns and Towers              |t_and_t                       |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		fabric-lifecycle-events-v1-2.2.22+afab492177.jar  |Fabric Lifecycle Events (v1)  |fabric_lifecycle_events_v1    |2.2.22+afab492177   |DONE      |Manifest: NOSIGNATURE
+		mowzie_respawner-1.0.0-forge-1.20.1.jar           |Mowzie Mobs Respawner         |mowzie_respawner              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		fabric-key-binding-api-v1-1.0.37+561530ec77.jar   |Fabric Key Binding API (v1)   |fabric_key_binding_api_v1     |1.0.37+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fabric-transfer-api-v1-3.3.5+631c9cd677.jar       |Fabric Transfer API (v1)      |fabric_transfer_api_v1        |3.3.5+631c9cd677    |DONE      |Manifest: NOSIGNATURE
+		amendments-1.20-1.2.14.jar                        |Amendments                    |amendments                    |1.20-1.2.14         |DONE      |Manifest: NOSIGNATURE
+		mss-1.2.6-1.20.jar                                |Moog's Soaring Structures     |mss                           |1.2.6-1.20-forge    |DONE      |Manifest: NOSIGNATURE
+		mowzies_cataclysm-1.1.0.jar                       |Mowzie's Cataclysm            |mowzies_cataclysm             |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		the-conjurer-1.20.1-1.1.6.jar                     |The Conjurer                  |conjurer_illager              |1.1.6               |DONE      |Manifest: NOSIGNATURE
+		fabric-resource-loader-v0-0.11.10+bcd08ed377.jar  |Fabric Resource Loader (v0)   |fabric_resource_loader_v0     |0.11.10+bcd08ed377  |DONE      |Manifest: NOSIGNATURE
+		obscure_api-15.jar                                |Obscure API                   |obscure_api                   |15                  |DONE      |Manifest: NOSIGNATURE
+		YungsCaveBiomes-1.20.1-Forge-2.0.1.jar            |YUNG's Cave Biomes            |yungscavebiomes               |1.20.1-Forge-2.0.1  |DONE      |Manifest: NOSIGNATURE
+		fabric-mining-level-api-v1-2.1.50+561530ec77.jar  |Fabric Mining Level API (v1)  |fabric_mining_level_api_v1    |2.1.50+561530ec77   |DONE      |Manifest: NOSIGNATURE
+		fromtheshadowsreborn-2.8.jar                      |From the Shadows Reborn       |fromtheshadows                |2.8                 |DONE      |Manifest: NOSIGNATURE
+		breezy-1.20.1-1.2.1.jar                           |Breezy                        |breezy                        |1.2.1               |DONE      |Manifest: NOSIGNATURE
+		lukis-grand-capitals-1.1.1.jar                    |Luki's Grand Capitals         |mr_lukis_grandcapitals        |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		call_of_yucutan-1.0.13-forge-1.20.1.jar           |Call of Yucatán               |call_of_yucutan               |1.0.13              |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.20-Forge-3.0.3.jar     |YUNG's Better Desert Temples  |betterdeserttemples           |1.20-Forge-3.0.3    |DONE      |Manifest: NOSIGNATURE
+		HopoBetterUnderwaterRuins-[1.20.2-1.20.4]-1.1.5.ja|HopoBetterUnderwaterRuins     |hopour                        |1.1.4               |DONE      |Manifest: NOSIGNATURE
+		BOMD-Forge-1.20.1-1.1.2.jar                       |Bosses of Mass Destruction    |bosses_of_mass_destruction    |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		blueprint-1.20.1-7.1.0.jar                        |Blueprint                     |blueprint                     |7.1.0               |DONE      |Manifest: NOSIGNATURE
+		boatload-1.20.1-5.0.1.jar                         |Boatload                      |boatload                      |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		environmental-1.20.1-4.0.1.jar                    |Environmental                 |environmental                 |4.0.1               |DONE      |Manifest: NOSIGNATURE
+		savage_and_ravage-1.20.1-6.0.0.jar                |Savage & Ravage               |savage_and_ravage             |6.0.0               |DONE      |Manifest: NOSIGNATURE
+		clayworks-1.20.1-3.0.2.jar                        |Clayworks                     |clayworks                     |3.0.2               |DONE      |Manifest: NOSIGNATURE
+		upgrade_aquatic-1.20.1-6.0.1.jar                  |Upgrade Aquatic               |upgrade_aquatic               |6.0.1               |DONE      |Manifest: NOSIGNATURE
+		endergetic-1.20.1-5.0.0.jar                       |The Endergetic Expansion      |endergetic                    |5.0.0               |DONE      |Manifest: NOSIGNATURE
+		neapolitan-1.20.1-5.0.0.jar                       |Neapolitan                    |neapolitan                    |5.0.0               |DONE      |Manifest: NOSIGNATURE
+		personality-1.20.1-4.0.0.jar                      |Personality                   |personality                   |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		autumnity-1.20.1-5.0.1.jar                        |Autumnity                     |autumnity                     |5.0.1               |DONE      |Manifest: NOSIGNATURE
+		incubation-1.20.1-4.0.2.jar                       |Incubation                    |incubation                    |4.0.2               |DONE      |Manifest: NOSIGNATURE
+		buzzier_bees-1.20.1-6.0.0.jar                     |Buzzier Bees                  |buzzier_bees                  |6.0.0               |DONE      |Manifest: NOSIGNATURE
+		Unwrecked Ships Plus 2.0.5 Forge.jar              |Unwrecked Ships - Plus        |unwrecked_ships_plus          |2.0.5               |DONE      |Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.20_1.20.1-1.32.jar           |TLSkinCape                    |tlskincape                    |1.32                |DONE      |Manifest: ef:fe:e7:59:91:bb:3a:06:c1:94:f4:f3:9c:3e:26:69:47:fa:2e:c5:53:d3:38:21:65:cc:04:75:e7:61:19:40
+		fabric-transitive-access-wideners-v1-4.3.1+1880499|Fabric Transitive Access Widen|fabric_transitive_access_widen|4.3.1+1880499877    |DONE      |Manifest: NOSIGNATURE
+		illager_additions-1.20.1-0.1.0-beta.jar           |Illager Additions             |illager_additions             |1.20.1-0.0.2-alpha  |DONE      |Manifest: NOSIGNATURE
+		alexscaves-2.0.2.jar                              |Alex's Caves                  |alexscaves                    |2.0.2               |DONE      |Manifest: NOSIGNATURE
+		moonlight-1.20-2.13.45-forge.jar                  |Moonlight Library             |moonlight                     |1.20-2.13.45        |DONE      |Manifest: NOSIGNATURE
+		fabric-blockrenderlayer-v1-1.1.41+1d0da21e77.jar  |Fabric BlockRenderLayer Regist|fabric_blockrenderlayer_v1    |1.1.41+1d0da21e77   |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.12.2.jar                     |Jade                          |jade                          |11.12.2+forge       |DONE      |Manifest: NOSIGNATURE
+		HopoBetterRuinedPortals-[1.20-1.20.2]-1.3.7.jar   |HopoBetterRuinedPortals       |hoporp                        |1.3.7               |DONE      |Manifest: NOSIGNATURE
+		displaydelight-1.2.0.jar                          |Display Delight               |displaydelight                |1.2.0               |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.12.27_mc1.20.1.jar          |CreativeCore                  |creativecore                  |2.12.27             |DONE      |Manifest: NOSIGNATURE
+		nethersdelight-1.20.1-4.0.jar                     |Nether's Delight              |nethersdelight                |1.20.1-4.0          |DONE      |Manifest: NOSIGNATURE
+		atmospheric-1.20.1-6.0.0.jar                      |Atmospheric                   |atmospheric                   |6.0.0               |DONE      |Manifest: NOSIGNATURE
+		Ribbits-1.20.1-Forge-3.0.2.jar                    |Ribbits                       |ribbits                       |1.20.1-Forge-3.0.2  |DONE      |Manifest: NOSIGNATURE
+		Iceberg-1.20.1-forge-1.1.25.jar                   |Iceberg                       |iceberg                       |1.1.25              |DONE      |Manifest: NOSIGNATURE
+		SpartanShields-1.20.1-forge-3.1.1.jar             |Spartan Shields               |spartanshields                |3.1.1               |DONE      |Manifest: NOSIGNATURE
+		Quark-4.0-460.jar                                 |Quark                         |quark                         |4.0-460             |DONE      |Manifest: NOSIGNATURE
+		woodworks-1.20.1-3.0.1.jar                        |Woodworks                     |woodworks                     |3.0.1               |DONE      |Manifest: NOSIGNATURE
+		abnormals_delight-1.20.1-5.0.0.jar                |Abnormals Delight             |abnormals_delight             |5.0.0               |DONE      |Manifest: NOSIGNATURE
+		irons_spellbooks-1.20.1-3.4.0.7.jar               |Iron's Spells 'n Spellbooks   |irons_spellbooks              |1.20.1-3.4.0.7      |DONE      |Manifest: NOSIGNATURE
+		ToughAsNails-forge-1.20.1-9.2.0.171.jar           |Tough As Nails                |toughasnails                  |9.2.0.171           |DONE      |Manifest: NOSIGNATURE
+		miners_delight-1.20.1-1.2.3.jar                   |Miner's Delight               |miners_delight                |1.20.1-1.2.3        |DONE      |Manifest: NOSIGNATURE
+		inventoryhud.forge.1.20.1-3.4.26.jar              |Inventory HUD+                |inventoryhud                  |3.4.26              |DONE      |Manifest: NOSIGNATURE
+		fabric-biome-api-v1-13.0.13+dc36698e77.jar        |Fabric Biome API (v1)         |fabric_biome_api_v1           |13.0.13+dc36698e77  |DONE      |Manifest: NOSIGNATURE
+		Wabi-Sabi-Structures-2.0.0-1.20-Forge.jar         |Wabi-Sabi Structures          |wabi_sabi_structures          |2.0.0-1.20          |DONE      |Manifest: NOSIGNATURE
+		BetterTridents-v8.0.1-1.20.1-Forge.jar            |Better Tridents               |bettertridents                |8.0.1               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		mvs-4.1.4-1.20-forge.jar                          |Moog's Voyager Structures     |mvs                           |4.1.4-1.20-forge    |DONE      |Manifest: NOSIGNATURE
+		creeperoverhaul-3.0.2-forge (1).jar               |Creeper Overhaul              |creeperoverhaul               |3.0.2               |DONE      |Manifest: NOSIGNATURE
+		Enhanced-Celestials-Forge-1.20.1-5.0.2.3.jar      |Enhanced Celestials           |enhancedcelestials            |1.20.1-5.0.2.3      |DONE      |Manifest: NOSIGNATURE
+		Corgilib-Forge-1.20.1-4.0.3.3.jar                 |CorgiLib                      |corgilib                      |4.0.3.3             |DONE      |Manifest: NOSIGNATURE
+		valhelsia_core-forge-1.20.1-1.1.2.jar             |Valhelsia Core                |valhelsia_core                |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		realmrpg_quests-0.1.1-forge-1.20.1.jar            |Realm RPG: Quests & Rewards   |realmrpg_quests               |0.1.1               |DONE      |Manifest: NOSIGNATURE
+		fabric-data-generation-api-v1-12.3.4+369cb3a477.ja|Fabric Data Generation API (v1|fabric_data_generation_api_v1 |12.3.4+369cb3a477   |DONE      |Manifest: NOSIGNATURE
+		fabric-events-interaction-v0-0.6.2+0d0bd5a777.jar |Fabric Events Interaction (v0)|fabric_events_interaction_v0  |0.6.2+0d0bd5a777    |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 07a5cdf3-e51a-4ed6-9d3b-02100dd94c51
+	FML: 47.3
+	Forge: net.minecraftforge:47.3.7
