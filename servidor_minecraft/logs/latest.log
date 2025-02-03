@@ -11055,3 +11055,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 19:41:46.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.23287776582654
 [03Feb2025 19:42:38.162] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 789123 lost connection: Disconnected
 [03Feb2025 19:42:38.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 left the game
+[03Feb2025 19:44:10.599] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/56794, l='ServerLevel[world]', x=-282.55, y=65.00, z=-6.96]
+[03Feb2025 19:49:00.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Good Demoman]
+[03Feb2025 19:50:56.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has completed the challenge [Fond some bubbles]

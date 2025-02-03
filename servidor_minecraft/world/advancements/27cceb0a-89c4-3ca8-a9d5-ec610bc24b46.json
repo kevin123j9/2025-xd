@@ -1176,5 +1176,11 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:good_demoman": {
+    "criteria": {
+      "good_demoman_0": "2025-02-03 19:49:00 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
