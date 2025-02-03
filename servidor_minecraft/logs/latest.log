@@ -11208,3 +11208,20 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 21:45:14.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was obliterated by a sonically-charged shriek
 [03Feb2025 21:45:15.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Warden
 [03Feb2025 21:45:20.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Warden
+[03Feb2025 21:47:04.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was blown up by Creeper
+[03Feb2025 21:50:14.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by kevin123j2
+[03Feb2025 21:56:07.791] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 lost connection: Disconnected
+[03Feb2025 21:56:07.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 left the game
+[03Feb2025 21:56:14.782] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevin123j2[/127.197.221.252:41693] logged in with entity id 112978 at (277.37301855657313, 91.0, 1812.0922632443328)
+[03Feb2025 21:56:14.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
+[03Feb2025 21:56:14.880] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
+[03Feb2025 21:58:51.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Ancient Knight
+[03Feb2025 21:58:51.492] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[03Feb2025 21:58:51.493] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 4 is dual wielding: false
+[03Feb2025 21:58:51.493] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 0 air
+[03Feb2025 21:58:51.493] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[03Feb2025 21:58:51.493] [Netty Epoll Server IO #0/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 0 | client: 0
+[03Feb2025 21:59:06.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Ancient Knight
+[03Feb2025 21:59:12.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq fell from a high place
+[03Feb2025 21:59:24.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Ancient Knight
+[03Feb2025 21:59:45.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Ancient Knight
