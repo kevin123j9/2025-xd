@@ -10884,3 +10884,36 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 18:49:37.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 moved wrongly!
 [03Feb2025 18:50:24.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Zombie
 [03Feb2025 18:50:54.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [A Flaming Sword]
+[03Feb2025 18:52:57.545] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/25958, l='ServerLevel[world]', x=-308.28, y=63.00, z=-18.28]
+[03Feb2025 18:54:10.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:54:41.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
+[03Feb2025 18:55:17.444] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.37.118.182:53369] logged in with entity id 27414 at (71.34365268178142, 60.12645460575984, -1492.9525980207993)
+[03Feb2025 18:55:17.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
+[03Feb2025 18:55:17.463] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
+[03Feb2025 18:55:20.663] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/27461, l='ServerLevel[world]', x=74.25, y=46.20, z=-1520.22]
+[03Feb2025 18:55:20.663] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/27462, l='ServerLevel[world]', x=74.25, y=46.20, z=-1520.22]
+[03Feb2025 18:55:20.663] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/27463, l='ServerLevel[world]', x=74.25, y=46.20, z=-1520.22]
+[03Feb2025 18:55:20.664] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/27464, l='ServerLevel[world]', x=74.25, y=46.20, z=-1520.22]
+[03Feb2025 18:55:27.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Sea Serpent
+[03Feb2025 18:55:28.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:55:53.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [The Song of the Dragons]
+[03Feb2025 18:56:04.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
+[03Feb2025 18:56:15.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[03Feb2025 18:56:26.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gustavo entra
+[03Feb2025 18:56:29.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> llamd
+[03Feb2025 18:56:32.892] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[03Feb2025 18:56:38.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:56:44.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Sea Serpent
+[03Feb2025 18:56:45.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:56:50.171] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[03Feb2025 18:56:51.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:56:51.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Sea Serpent
+[03Feb2025 18:56:57.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:57:05.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:57:13.379] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[03Feb2025 18:57:22.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [An Ear-Shattering Roar]
+[03Feb2025 18:57:24.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[03Feb2025 18:57:50.271] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[03Feb2025 19:00:22.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[03Feb2025 19:00:41.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq suffocated in a wall
+[03Feb2025 19:01:01.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Skeleton
