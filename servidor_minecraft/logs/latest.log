@@ -11093,3 +11093,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 20:17:04.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt was slain by kevin123j2
 [03Feb2025 20:19:17.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity WanderingTrader['Suzette'/68108, l='ServerLevel[world]', x=-304.09, y=63.00, z=-15.28] died: Suzette was shot by davisdrt
 [03Feb2025 20:21:17.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has made the advancement [Weed Wacker]
+[03Feb2025 20:25:08.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Bypassing the Expiration Date]
+[03Feb2025 20:30:28.754] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Danika'/72916, l='ServerLevel[world]', x=-83.70, y=63.77, z=1102.67] died, message: 'Danika was slain by Crawler'
+[03Feb2025 20:30:28.754] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Danika'/72916, l='ServerLevel[world]', x=-83.70, y=63.77, z=1102.67] died: Danika was slain by Crawler
