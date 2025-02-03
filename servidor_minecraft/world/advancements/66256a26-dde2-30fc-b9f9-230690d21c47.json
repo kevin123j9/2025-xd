@@ -1298,9 +1298,16 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2025-02-03 01:00:54 +0000"
+      "minecraft:soul_sand_valley": "2025-02-03 01:00:54 +0000",
+      "minecraft:nether_wastes": "2025-02-03 18:34:41 +0000"
     },
     "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2025-02-03 18:33:53 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
