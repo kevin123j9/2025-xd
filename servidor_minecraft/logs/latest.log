@@ -11074,3 +11074,19 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 20:01:19.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
 [03Feb2025 20:01:19.568] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
 [03Feb2025 20:02:32.411] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/59145, l='ServerLevel[world]', x=-39.07, y=72.00, z=559.04]
+[03Feb2025 20:05:58.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has reached the goal [New Age Librarian]
+[03Feb2025 20:09:50.647] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.3027633222620274
+[03Feb2025 20:09:50.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.46304853340978624
+[03Feb2025 20:09:50.797] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.30736082566192735
+[03Feb2025 20:11:09.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was blown up by Creeper
+[03Feb2025 20:11:09.588] [Netty Epoll Server IO #2/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[03Feb2025 20:11:09.588] [Netty Epoll Server IO #2/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 1 is dual wielding: false
+[03Feb2025 20:11:09.588] [Netty Epoll Server IO #2/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 0 air
+[03Feb2025 20:11:09.589] [Netty Epoll Server IO #2/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[03Feb2025 20:11:09.589] [Netty Epoll Server IO #2/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 1 | client: 1
+[03Feb2025 20:11:58.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Creepie Crawly]
+[03Feb2025 20:12:09.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
+[03Feb2025 20:12:09.103] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
+[03Feb2025 20:12:09.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
+[03Feb2025 20:12:09.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
+[03Feb2025 20:12:15.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was crushed by davisdrt's giant block of ice
