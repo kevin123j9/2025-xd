@@ -197,6 +197,7 @@
       "environmental:environmental:pine_slopes": "2025-01-18 21:52:34 +0000",
       "minecraft:ocean": "2025-01-08 16:30:12 +0000",
       "minecraft:flower_forest": "2025-01-08 17:51:29 +0000",
+      "minecraft:deep_dark": "2025-02-03 20:42:05 +0000",
       "minecraft:meadow": "2025-01-18 19:59:21 +0000",
       "minecraft:plains": "2025-01-08 14:58:02 +0000",
       "autumnity:autumnity:pumpkin_fields": "2025-01-08 15:41:14 +0000"
@@ -905,9 +906,33 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/sunbird_blessing": {
+    "criteria": {
+      "all_effects": "2025-02-03 20:52:51 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2025-02-03 20:38:46 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2025-02-03 20:38:46 +0000"
+    },
+    "done": false
+  },
   "iceandfire:iceandfire/dragonbone_flaming_sword": {
     "criteria": {
       "sword": "2025-02-03 19:33:37 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-02-03 20:46:36 +0000"
     },
     "done": true
   },

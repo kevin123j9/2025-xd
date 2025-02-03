@@ -11096,3 +11096,38 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 20:25:08.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Bypassing the Expiration Date]
 [03Feb2025 20:30:28.754] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Danika'/72916, l='ServerLevel[world]', x=-83.70, y=63.77, z=1102.67] died, message: 'Danika was slain by Crawler'
 [03Feb2025 20:30:28.754] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Danika'/72916, l='ServerLevel[world]', x=-83.70, y=63.77, z=1102.67] died: Danika was slain by Crawler
+[03Feb2025 20:38:46.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has made the advancement [When in Rome]
+[03Feb2025 20:42:59.463] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=278, y=-35, z=1844} BlockPos{x=277, y=-36, z=1845}
+[03Feb2025 20:43:26.504] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=281, y=-31, z=1850} BlockPos{x=282, y=-31, z=1851}
+[03Feb2025 20:43:46.149] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=277, y=-38, z=1848} BlockPos{x=277, y=-38, z=1849}
+[03Feb2025 20:43:58.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=269, y=-44, z=1849} BlockPos{x=271, y=-44, z=1849}
+[03Feb2025 20:44:19.551] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=271, y=-39, z=1853} BlockPos{x=271, y=-40, z=1853}
+[03Feb2025 20:44:27.347] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=268, y=-36, z=1853} BlockPos{x=269, y=-36, z=1853}
+[03Feb2025 20:44:30.293] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=272, y=-38, z=1853} BlockPos{x=271, y=-37, z=1853}
+[03Feb2025 20:45:03.152] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=273, y=-34, z=1854} BlockPos{x=274, y=-35, z=1854}
+[03Feb2025 20:45:05.902] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=273, y=-35, z=1854} BlockPos{x=270, y=-35, z=1854}
+[03Feb2025 20:45:19.842] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=233, y=-44, z=1857} BlockPos{x=232, y=-45, z=1859}
+[03Feb2025 20:45:29.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=236, y=-44, z=1862} BlockPos{x=237, y=-45, z=1862}
+[03Feb2025 20:45:29.204] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=235, y=-44, z=1862} BlockPos{x=237, y=-45, z=1862}
+[03Feb2025 20:46:14.248] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=250, y=-43, z=1855} BlockPos{x=252, y=-43, z=1855}
+[03Feb2025 20:46:22.002] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=251, y=-47, z=1852} BlockPos{x=251, y=-46, z=1851}
+[03Feb2025 20:46:23.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Alex's Caves]
+[03Feb2025 20:46:36.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has made the advancement [Alex's Caves]
+[03Feb2025 20:46:41.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has completed the challenge [It Spreads]
+[03Feb2025 20:46:44.749] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=252, y=-47, z=1856} BlockPos{x=253, y=-48, z=1855}
+[03Feb2025 20:47:47.602] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=217, y=-40, z=1828} BlockPos{x=217, y=-39, z=1826}
+[03Feb2025 20:52:51.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has completed the challenge [The Power of the Sun]
+[03Feb2025 20:53:17.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 moved wrongly!
+[03Feb2025 20:54:12.798] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 lost connection: Disconnected
+[03Feb2025 20:54:12.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 left the game
+[03Feb2025 20:55:38.120] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevin123j2[/127.197.221.252:34095] logged in with entity id 83273 at (202.32023033302676, -40.0942792002027, 1817.4244147887232)
+[03Feb2025 20:55:38.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
+[03Feb2025 20:55:38.231] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
+[03Feb2025 20:58:47.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
+[03Feb2025 20:58:51.649] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jos3enriq lost connection: Disconnected
+[03Feb2025 20:58:51.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq left the game
+[03Feb2025 21:00:41.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
+[03Feb2025 21:01:25.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt was slain by Nightmare Stalker
+[03Feb2025 21:04:56.338] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jos3enriq[/127.15.68.150:46441] logged in with entity id 85032 at (187.68404214140975, -45.0, 1879.1730261611779)
+[03Feb2025 21:04:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq joined the game
+[03Feb2025 21:04:56.432] [Server thread/INFO] [Jade/]: Syncing config to Jos3enriq (27cceb0a-89c4-3ca8-a9d5-ec610bc24b46)
