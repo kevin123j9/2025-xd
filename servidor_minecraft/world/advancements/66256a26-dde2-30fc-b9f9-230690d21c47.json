@@ -1271,6 +1271,24 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2025-02-03 01:00:54 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-02-03 01:00:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-02-03 01:00:51 +0000"
+    },
+    "done": true
+  },
   "undead_revamp2:mygothgf": {
     "criteria": {
       "mygothgf_0": "2025-02-03 00:27:05 +0000"
