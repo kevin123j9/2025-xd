@@ -11090,3 +11090,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 20:12:09.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
 [03Feb2025 20:12:09.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.290771484375
 [03Feb2025 20:12:15.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was crushed by davisdrt's giant block of ice
+[03Feb2025 20:17:04.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt was slain by kevin123j2
+[03Feb2025 20:19:17.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity WanderingTrader['Suzette'/68108, l='ServerLevel[world]', x=-304.09, y=63.00, z=-15.28] died: Suzette was shot by davisdrt
+[03Feb2025 20:21:17.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has made the advancement [Weed Wacker]
