@@ -1303,9 +1303,9 @@
     },
     "done": false
   },
-  "born_in_chaos_v1:unlucky_hunter": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "unlucky_hunter_0": "2025-02-03 19:19:08 +0000"
+      "in_better_fortress": "2025-02-03 18:33:53 +0000"
     },
     "done": true
   },
@@ -1321,9 +1321,9 @@
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "iceandfire:iceandfire/dragon_horn": {
     "criteria": {
-      "in_better_fortress": "2025-02-03 18:33:53 +0000"
+      "bestiary": "2025-02-03 18:46:44 +0000"
     },
     "done": true
   },
@@ -1333,9 +1333,15 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragon_horn": {
+  "born_in_chaos_v1:unlucky_hunter": {
     "criteria": {
-      "bestiary": "2025-02-03 18:46:44 +0000"
+      "unlucky_hunter_0": "2025-02-03 19:19:08 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_meal": {
+    "criteria": {
+      "bestiary": "2025-02-03 19:21:46 +0000"
     },
     "done": true
   },
