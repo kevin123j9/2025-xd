@@ -1271,11 +1271,17 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
+  "undead_revamp2:mygothgf": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2025-02-03 01:00:54 +0000"
+      "mygothgf_0": "2025-02-03 00:27:05 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_map": {
+    "criteria": {
+      "cave_map": "2025-02-03 00:50:27 +0000"
+    },
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -1289,17 +1295,11 @@
     },
     "done": true
   },
-  "undead_revamp2:mygothgf": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "mygothgf_0": "2025-02-03 00:27:05 +0000"
+      "minecraft:soul_sand_valley": "2025-02-03 01:00:54 +0000"
     },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_map": {
-    "criteria": {
-      "cave_map": "2025-02-03 00:50:27 +0000"
-    },
-    "done": true
+    "done": false
   },
   "DataVersion": 3465
 }
