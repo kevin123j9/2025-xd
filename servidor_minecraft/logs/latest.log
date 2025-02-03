@@ -11058,3 +11058,19 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [03Feb2025 19:44:10.599] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/56794, l='ServerLevel[world]', x=-282.55, y=65.00, z=-6.96]
 [03Feb2025 19:49:00.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Good Demoman]
 [03Feb2025 19:50:56.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt has completed the challenge [Fond some bubbles]
+[03Feb2025 19:53:52.742] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/59145, l='ServerLevel[world]', x=-276.83, y=65.00, z=-11.03]
+[03Feb2025 19:54:17.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.26812498602763624
+[03Feb2025 19:55:59.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.27200650854965147
+[03Feb2025 19:55:59.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.6120936728561048
+[03Feb2025 19:55:59.570] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.990647116692277
+[03Feb2025 19:55:59.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.3067356478768204
+[03Feb2025 19:56:17.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.5051589252195754
+[03Feb2025 19:56:17.663] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 1.194339208046813
+[03Feb2025 19:56:17.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 1.8877203602877444
+[03Feb2025 19:56:17.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.5833493139956545
+[03Feb2025 19:57:27.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 lost connection: Disconnected
+[03Feb2025 19:57:27.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 left the game
+[03Feb2025 20:01:19.483] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevin123j2[/127.197.221.252:43587] logged in with entity id 63545 at (34.25248439601152, 64.0, 652.6711997640065)
+[03Feb2025 20:01:19.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
+[03Feb2025 20:01:19.568] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
+[03Feb2025 20:02:32.411] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/59145, l='ServerLevel[world]', x=-39.07, y=72.00, z=559.04]
