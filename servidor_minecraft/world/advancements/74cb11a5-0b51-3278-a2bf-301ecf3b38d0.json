@@ -868,5 +868,17 @@
     },
     "done": true
   },
+  "immersive_weathering:immersive_weathering/bark_off": {
+    "criteria": {
+      "wax_off": "2025-02-02 23:58:16 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/bark_on": {
+    "criteria": {
+      "wax_on": "2025-02-02 23:58:24 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
