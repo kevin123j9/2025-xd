@@ -1011,5 +1011,11 @@
     },
     "done": true
   },
+  "beachparty:sand_bucket_block": {
+    "criteria": {
+      "has_wooden_shovel": "2025-02-04 17:57:35 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

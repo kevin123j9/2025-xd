@@ -182,12 +182,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-01-18 20:00:45 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-02-04 18:58:16 +0000",
       "minecraft:deep_ocean": "2025-01-08 23:01:28 +0000",
       "minecraft:sunflower_plains": "2025-01-08 18:58:11 +0000",
       "minecraft:cherry_grove": "2025-01-18 19:59:06 +0000",
+      "minecraft:birch_forest": "2025-02-04 18:48:58 +0000",
       "minecraft:beach": "2025-01-08 15:46:33 +0000",
       "environmental:environmental:blossom_woods": "2025-01-18 20:02:16 +0000",
+      "minecraft:dark_forest": "2025-02-04 18:53:32 +0000",
       "minecraft:river": "2025-01-08 17:08:02 +0000",
+      "atmospheric:atmospheric:laurel_forest": "2025-02-04 18:49:07 +0000",
       "minecraft:dripstone_caves": "2025-01-18 21:40:24 +0000",
       "minecraft:grove": "2025-01-18 20:00:47 +0000",
       "minecraft:cold_ocean": "2025-01-18 19:47:27 +0000",
@@ -196,7 +200,9 @@
       "autumnity:autumnity:maple_forest": "2025-01-11 23:22:13 +0000",
       "environmental:environmental:pine_slopes": "2025-01-18 21:52:34 +0000",
       "minecraft:ocean": "2025-01-08 16:30:12 +0000",
+      "minecraft:old_growth_spruce_taiga": "2025-02-04 18:57:08 +0000",
       "minecraft:flower_forest": "2025-01-08 17:51:29 +0000",
+      "minecraft:old_growth_birch_forest": "2025-02-04 18:50:25 +0000",
       "minecraft:deep_dark": "2025-02-03 20:42:05 +0000",
       "minecraft:meadow": "2025-01-18 19:59:21 +0000",
       "minecraft:plains": "2025-01-08 14:58:02 +0000",
@@ -900,15 +906,27 @@
     },
     "done": true
   },
-  "immersive_weathering:immersive_weathering/weeds": {
+  "born_in_chaos_v1:bypassingthe_expiration_date": {
     "criteria": {
-      "wheat": "2025-02-03 20:21:17 +0000"
+      "bypassingthe_expiration_date_0": "2025-02-03 19:14:36 +0000"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/sunbird_blessing": {
+  "iceandfire:iceandfire/dragonbone_flaming_sword": {
     "criteria": {
-      "all_effects": "2025-02-03 20:52:51 +0000"
+      "sword": "2025-02-03 19:33:37 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:devillhunter": {
+    "criteria": {
+      "devillhunter_0": "2025-02-03 19:50:56 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/weeds": {
+    "criteria": {
+      "wheat": "2025-02-03 20:21:17 +0000"
     },
     "done": true
   },
@@ -924,27 +942,15 @@
     },
     "done": false
   },
-  "iceandfire:iceandfire/dragonbone_flaming_sword": {
-    "criteria": {
-      "sword": "2025-02-03 19:33:37 +0000"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/root": {
     "criteria": {
       "underground_cabin": "2025-02-03 20:46:36 +0000"
     },
     "done": true
   },
-  "undead_revamp2:devillhunter": {
+  "alexsmobs:alexsmobs/sunbird_blessing": {
     "criteria": {
-      "devillhunter_0": "2025-02-03 19:50:56 +0000"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:bypassingthe_expiration_date": {
-    "criteria": {
-      "bypassingthe_expiration_date_0": "2025-02-03 19:14:36 +0000"
+      "all_effects": "2025-02-03 20:52:51 +0000"
     },
     "done": true
   },
