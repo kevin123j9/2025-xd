@@ -1196,5 +1196,17 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2025-02-03 23:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hidden_books": {
+    "criteria": {
+      "book": "2025-02-04 00:07:59 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
