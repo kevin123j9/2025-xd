@@ -10589,3 +10589,12 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 21:43:32.331] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Guard['Jesus'/63978, l='ServerLevel[world]', x=56.82, y=36.00, z=1819.20] died: Jesus fell from a high place
 [04Feb2025 21:44:30.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Guard['Dewitt'/63979, l='ServerLevel[world]', x=57.70, y=36.00, z=1817.31] died: Dewitt fell from a high place
 [04Feb2025 21:45:46.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Bee Our Guest]
+[04Feb2025 21:54:52.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [One with Nature]
+[04Feb2025 21:55:53.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was obliterated by kevin123j2's fireball
+[04Feb2025 22:00:09.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.3106940829309792
+[04Feb2025 22:00:09.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.7881757250643204
+[04Feb2025 22:00:09.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.3111101572113171
+[04Feb2025 22:00:09.671] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.8770007917423186
+[04Feb2025 22:00:09.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 1.4742829291824364
+[04Feb2025 22:02:32.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Bulldrogioth
+[04Feb2025 22:07:50.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Bee Our Guest]

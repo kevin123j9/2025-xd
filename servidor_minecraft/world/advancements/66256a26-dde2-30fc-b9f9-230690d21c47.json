@@ -1379,9 +1379,21 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_druidic": {
+    "criteria": {
+      "requirement": "2025-02-04 21:54:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/silk_touch_nest": {
     "criteria": {
       "silk_touch_nest": "2025-02-04 21:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2025-02-04 21:45:46 +0000"
     },
     "done": true
   },
