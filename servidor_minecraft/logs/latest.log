@@ -10601,3 +10601,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 22:15:16.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
 [04Feb2025 22:18:15.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 withered away
 [04Feb2025 22:18:32.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 fell from a high place
+[04Feb2025 22:24:56.675] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-247, y=64, z=5} BlockPos{x=-247, y=63, z=6}
+[04Feb2025 22:26:39.266] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity WanderingTrader['Blake'/122813, l='ServerLevel[world]', x=-285.04, y=62.54, z=-51.20] died: Blake was skewered by Jos3enriq's blood needles
+[04Feb2025 22:27:39.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 moved too quickly! -10.22237765789032,-2.0,-9.565719604492188
