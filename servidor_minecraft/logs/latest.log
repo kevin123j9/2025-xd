@@ -10564,3 +10564,17 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 21:08:07.016] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
 [04Feb2025 21:12:22.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq died whilst trying to escape The Spitter
 [04Feb2025 21:16:24.187] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-327, y=77, z=-35} BlockPos{x=-327, y=75, z=-34}
+[04Feb2025 21:19:34.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was blown up by Creeper
+[04Feb2025 21:21:44.791] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=359, y=113, z=1764} BlockPos{x=359, y=112, z=1762}
+[04Feb2025 21:21:45.763] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=355, y=115, z=1763} BlockPos{x=355, y=113, z=1763}
+[04Feb2025 21:21:45.820] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=355, y=115, z=1763} BlockPos{x=355, y=113, z=1763}
+[04Feb2025 21:21:45.868] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=355, y=115, z=1763} BlockPos{x=355, y=113, z=1763}
+[04Feb2025 21:21:45.916] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=355, y=115, z=1763} BlockPos{x=355, y=113, z=1763}
+[04Feb2025 21:22:21.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.31342901781522414
+[04Feb2025 21:22:21.100] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 0.8890925605471693
+[04Feb2025 21:22:21.101] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 1.5156036988164487
+[04Feb2025 21:22:21.154] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.1693223716661123
+[04Feb2025 21:22:21.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Spectral Steed (vehicle of kevin123j2) moved wrongly! 2.8375992538099126
+[04Feb2025 21:25:22.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[04Feb2025 21:26:09.955] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/41566, l='ServerLevel[world]', x=260.59, y=108.92, z=1666.10]
+[04Feb2025 21:27:50.188] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/41566, l='ServerLevel[world]', x=258.15, y=110.85, z=1642.09]
