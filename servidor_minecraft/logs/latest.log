@@ -14010,3 +14010,36 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 17:13:55.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> que te salio
 [04Feb2025 17:14:04.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Drowned
 [04Feb2025 17:14:07.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xd
+[04Feb2025 17:14:45.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> era algo de curacion instantanea
+[04Feb2025 17:15:52.111] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Gravel'/39064, l='ServerLevel[world]', x=57.50, y=11.00, z=-1781.50]
+[04Feb2025 17:17:41.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Drowned
+[04Feb2025 17:17:45.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xd
+[04Feb2025 17:18:03.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> are carne asado con su famlia
+[04Feb2025 17:20:46.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> por fin rellene la playa
+[04Feb2025 17:21:19.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> zzz
+[04Feb2025 17:21:25.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> antes q el dragon venga
+[04Feb2025 17:21:53.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> zzzzzz
+[04Feb2025 17:22:03.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 walked into fire whilst fighting Fire Dragon
+[04Feb2025 17:22:11.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 fell from a high place
+[04Feb2025 17:22:24.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was incinerated by Fire Dragon
+[04Feb2025 17:22:32.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Fire Dragon
+[04Feb2025 17:22:41.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Fire Dragon
+[04Feb2025 17:22:56.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was burnt to a crisp whilst fighting Fire Dragon
+[04Feb2025 17:23:00.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xddd
+[04Feb2025 17:23:02.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Fire Dragon
+[04Feb2025 17:23:07.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was incinerated by Fire Dragon
+[04Feb2025 17:24:28.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> que haces aqui?
+[04Feb2025 17:24:30.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xd
+[04Feb2025 17:25:04.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> ahi va un grande
+[04Feb2025 17:25:09.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> estaras llevando cama xd
+[04Feb2025 17:25:14.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> tengo
+[04Feb2025 17:25:24.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> solo q en la isla el dragon esta fuerte
+[04Feb2025 17:25:30.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> que le hiciste a mis bayas repugnantes xddd
+[04Feb2025 17:25:45.157] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 789123 lost connection: Disconnected
+[04Feb2025 17:25:45.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 left the game
+[04Feb2025 17:25:56.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xddd
+[04Feb2025 17:29:07.339] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jos3enriq lost connection: Disconnected
+[04Feb2025 17:29:07.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq left the game
+[04Feb2025 17:31:32.360] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.117.137.247:42083] logged in with entity id 48594 at (-398.1255434413901, 63.0, -287.2539028867972)
+[04Feb2025 17:31:32.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
+[04Feb2025 17:31:32.377] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
