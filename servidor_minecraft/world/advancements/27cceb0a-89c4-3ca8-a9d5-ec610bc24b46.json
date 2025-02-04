@@ -1225,5 +1225,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2025-02-04 22:07:50 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
