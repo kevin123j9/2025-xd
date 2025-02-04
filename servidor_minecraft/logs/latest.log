@@ -10508,3 +10508,48 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 16:43:09.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> uno del marr
 [04Feb2025 16:43:09.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> como se llama
 [04Feb2025 16:43:21.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> warped axe
+[04Feb2025 16:44:06.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> zzz
+[04Feb2025 16:44:23.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> estare sigue ne mar
+[04Feb2025 16:44:30.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> esta gozo las item
+[04Feb2025 16:44:34.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was impaled by Drowned
+[04Feb2025 16:44:35.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xd
+[04Feb2025 16:44:43.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> necesito via
+[04Feb2025 16:44:54.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> via?
+[04Feb2025 16:45:03.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> vida
+[04Feb2025 16:45:33.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> me mori
+[04Feb2025 16:45:38.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was impaled by Drowned
+[04Feb2025 16:45:38.723] [Netty Epoll Server IO #4/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[04Feb2025 16:45:38.724] [Netty Epoll Server IO #4/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 2 is dual wielding: false
+[04Feb2025 16:45:38.724] [Netty Epoll Server IO #4/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 0 air
+[04Feb2025 16:45:38.724] [Netty Epoll Server IO #4/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[04Feb2025 16:45:38.724] [Netty Epoll Server IO #4/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 7 | client: 7
+[04Feb2025 16:48:26.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> no hay las sirenas
+[04Feb2025 16:48:44.575] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[04Feb2025 16:48:44.584] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:minecraft_empty
+[04Feb2025 16:48:52.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> si deberia habere
+[04Feb2025 16:49:02.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> ma mtaron y ya no estan
+[04Feb2025 16:49:10.189] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[04Feb2025 16:49:12.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> entonces debieron seguirte xdd
+[04Feb2025 16:49:19.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> un zoologixo
+[04Feb2025 16:49:41.604] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id friendsandfoes:iceologer
+[04Feb2025 16:49:49.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Dark Forging]
+[04Feb2025 16:50:06.085] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[04Feb2025 16:50:25.967] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4894ms or 97 ticks behind
+[04Feb2025 16:50:28.575] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[04Feb2025 16:50:44.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3623ms or 72 ticks behind
+[04Feb2025 16:51:02.636] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3113ms or 62 ticks behind
+[04Feb2025 16:51:20.362] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2739ms or 54 ticks behind
+[04Feb2025 16:51:21.318] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: revampedvillages:mansion/bottom_back_left
+[04Feb2025 16:51:21.432] [Worker-Main-1/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: revampedvillages:mansion/bottom_back_left
+[04Feb2025 16:51:41.860] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6536ms or 130 ticks behind
+[04Feb2025 16:51:45.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> mapa de un illager
+[04Feb2025 16:51:59.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> y badlans miner
+[04Feb2025 16:52:06.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> dragonnnnnnnnnn
+[04Feb2025 16:53:10.576] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[04Feb2025 16:53:30.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> scaipia
+[04Feb2025 16:53:32.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> grande
+[04Feb2025 16:53:41.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> un castillaso en el oceano
+[04Feb2025 16:53:42.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xddd
+[04Feb2025 16:53:47.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> donde te habras ido
+[04Feb2025 16:53:50.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> es muy grande
+[04Feb2025 16:54:01.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> diamante al aire libre

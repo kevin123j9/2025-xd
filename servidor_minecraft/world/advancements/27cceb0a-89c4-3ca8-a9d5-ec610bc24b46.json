@@ -735,7 +735,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-01-10 00:06:45 +0000"
+      "minecraft:cow": "2025-01-10 00:06:45 +0000",
+      "autumnity:turkey": "2025-02-04 16:47:41 +0000"
     },
     "done": false
   },
@@ -1207,6 +1208,12 @@
   "minecraft:adventure/hidden_books": {
     "criteria": {
       "book": "2025-02-04 00:07:59 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_forging": {
+    "criteria": {
+      "dark_forging_0": "2025-02-04 16:49:49 +0000"
     },
     "done": true
   },
