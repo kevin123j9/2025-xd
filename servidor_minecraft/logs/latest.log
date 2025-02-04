@@ -10578,3 +10578,14 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 21:25:22.445] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
 [04Feb2025 21:26:09.955] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/41566, l='ServerLevel[world]', x=260.59, y=108.92, z=1666.10]
 [04Feb2025 21:27:50.188] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: SummonedHorse['Spectral Steed'/41566, l='ServerLevel[world]', x=258.15, y=110.85, z=1642.09]
+[04Feb2025 21:28:44.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was blown up by Creeper
+[04Feb2025 21:28:51.672] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[04Feb2025 21:40:55.735] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 lost connection: Disconnected
+[04Feb2025 21:40:55.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 left the game
+[04Feb2025 21:41:08.904] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevin123j2[/127.197.221.252:48439] logged in with entity id 63395 at (324.4458947771861, 92.0, 1932.8210116174032)
+[04Feb2025 21:41:08.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
+[04Feb2025 21:41:08.954] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
+[04Feb2025 21:43:00.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Total Beelocation]
+[04Feb2025 21:43:32.331] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Guard['Jesus'/63978, l='ServerLevel[world]', x=56.82, y=36.00, z=1819.20] died: Jesus fell from a high place
+[04Feb2025 21:44:30.065] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Guard['Dewitt'/63979, l='ServerLevel[world]', x=57.70, y=36.00, z=1817.31] died: Dewitt fell from a high place
+[04Feb2025 21:45:46.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Bee Our Guest]
