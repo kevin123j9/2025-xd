@@ -1397,5 +1397,11 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_staff": {
+    "criteria": {
+      "bestiary": "2025-02-04 22:48:37 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
