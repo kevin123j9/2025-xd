@@ -978,12 +978,6 @@
     },
     "done": true
   },
-  "dungeons_plus:adventure/find_warped_garden": {
-    "criteria": {
-      "in_structure": "2025-02-03 19:28:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
       "has_sherd": "2025-02-03 19:10:16 +0000"
@@ -993,6 +987,12 @@
   "immersive_armors:recipes/misc/steampunk": {
     "criteria": {
       "has_item": "2025-02-03 19:12:06 +0000"
+    },
+    "done": true
+  },
+  "dungeons_plus:adventure/find_warped_garden": {
+    "criteria": {
+      "in_structure": "2025-02-03 19:28:52 +0000"
     },
     "done": true
   },

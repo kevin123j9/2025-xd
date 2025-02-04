@@ -10495,3 +10495,16 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 15:56:28.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Jos3enriq) moved wrongly! 1.1325067161183142
 [04Feb2025 15:56:28.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Jos3enriq) moved wrongly! 1.1877078548923237
 [04Feb2025 15:58:05.139] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Jos3enriq) moved wrongly! 0.45232840756496273
+[04Feb2025 16:38:10.832] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.117.137.247:44521] logged in with entity id 10355 at (51.23750001192093, 63.0, -1456.579324632081)
+[04Feb2025 16:38:10.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
+[04Feb2025 16:38:10.857] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
+[04Feb2025 16:38:19.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> buenas
+[04Feb2025 16:40:35.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Siren
+[04Feb2025 16:41:33.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was impaled by Drowned
+[04Feb2025 16:41:43.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xddd
+[04Feb2025 16:41:47.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> voy a ayudarte?
+[04Feb2025 16:42:54.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> encontre un arma q no se craftea
+[04Feb2025 16:43:00.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> xd
+[04Feb2025 16:43:09.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> uno del marr
+[04Feb2025 16:43:09.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> como se llama
+[04Feb2025 16:43:21.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> warped axe
