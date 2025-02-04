@@ -10618,3 +10618,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 22:43:59.622] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-213, y=63, z=7} BlockPos{x=-214, y=63, z=7}
 [04Feb2025 22:43:59.673] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-213, y=63, z=7} BlockPos{x=-214, y=63, z=7}
 [04Feb2025 22:48:37.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 has made the advancement [Dragon Commander]
+[04Feb2025 22:54:13.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
+[04Feb2025 22:54:14.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
+[04Feb2025 22:54:54.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Dragon Commander]
