@@ -1225,6 +1225,12 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2025-02-04 23:19:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2025-02-04 22:07:50 +0000"

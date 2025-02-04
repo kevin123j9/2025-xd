@@ -1379,18 +1379,6 @@
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/spell_book_druidic": {
-    "criteria": {
-      "requirement": "2025-02-04 21:54:52 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/use_cutting_board": {
-    "criteria": {
-      "cutting_board": "2025-02-04 23:00:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/silk_touch_nest": {
     "criteria": {
       "silk_touch_nest": "2025-02-04 21:43:00 +0000"
@@ -1403,9 +1391,21 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/spell_book_druidic": {
+    "criteria": {
+      "requirement": "2025-02-04 21:54:52 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/dragon_staff": {
     "criteria": {
       "bestiary": "2025-02-04 22:48:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2025-02-04 23:00:10 +0000"
     },
     "done": true
   },

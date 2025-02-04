@@ -10621,3 +10621,46 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 22:54:13.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq was slain by Nightmare Stalker
 [04Feb2025 22:54:14.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 was slain by Nightmare Stalker
 [04Feb2025 22:54:54.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has made the advancement [Dragon Commander]
+[04Feb2025 23:11:08.348] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.117.137.247:38663] logged in with entity id 137237 at (-11.351219494435185, 73.0, -1921.2871619852594)
+[04Feb2025 23:11:08.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
+[04Feb2025 23:11:08.367] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
+[04Feb2025 23:12:00.200] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[04Feb2025 23:12:19.739] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4547ms or 90 ticks behind
+[04Feb2025 23:14:01.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[04Feb2025 23:14:20.087] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3145ms or 62 ticks behind
+[04Feb2025 23:14:37.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2267ms or 45 ticks behind
+[04Feb2025 23:14:55.553] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[04Feb2025 23:15:14.244] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3702ms or 74 ticks behind
+[04Feb2025 23:15:32.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2842ms or 56 ticks behind
+[04Feb2025 23:15:49.690] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2648ms or 52 ticks behind
+[04Feb2025 23:15:55.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 fell from a high place
+[04Feb2025 23:16:00.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gystav
+[04Feb2025 23:16:02.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> llamada
+[04Feb2025 23:16:04.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gustavo llamda
+[04Feb2025 23:16:06.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> ?
+[04Feb2025 23:16:11.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> no puedo
+[04Feb2025 23:16:17.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> poe ahora
+[04Feb2025 23:16:31.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[04Feb2025 23:16:50.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[04Feb2025 23:17:11.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> zzz
+[04Feb2025 23:17:14.601] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[04Feb2025 23:17:19.936] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kevin123j2 lost connection: Disconnected
+[04Feb2025 23:17:19.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 left the game
+[04Feb2025 23:17:38.662] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kevin123j2[/127.197.221.252:36035] logged in with entity id 141210 at (-23.69999998807907, 65.0625, 25.191552807035997)
+[04Feb2025 23:17:38.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kevin123j2 joined the game
+[04Feb2025 23:17:38.747] [Server thread/INFO] [Jade/]: Syncing config to kevin123j2 (66256a26-dde2-30fc-b9f9-230690d21c47)
+[04Feb2025 23:18:01.605] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[04Feb2025 23:18:02.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> regresa gustavo
+[04Feb2025 23:18:03.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gustavo regres
+[04Feb2025 23:18:08.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jos3enriq> vamos a una mansion de maldeanos
+[04Feb2025 23:18:09.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> por??
+[04Feb2025 23:18:16.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> para la mansion de maldeno
+[04Feb2025 23:18:23.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> tengo mapa
+[04Feb2025 23:18:29.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> regres
+[04Feb2025 23:18:30.804] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[04Feb2025 23:18:38.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> hay serpiente marina
+[04Feb2025 23:18:44.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> y dragin
+[04Feb2025 23:18:55.747] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[04Feb2025 23:19:08.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jos3enriq has reached the goal [Horror of the Depths]
+[04Feb2025 23:19:38.395] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[04Feb2025 23:20:48.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 discovered the floor was lava
