@@ -14043,3 +14043,35 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [04Feb2025 17:31:32.360] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.117.137.247:42083] logged in with entity id 48594 at (-398.1255434413901, 63.0, -287.2539028867972)
 [04Feb2025 17:31:32.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
 [04Feb2025 17:31:32.377] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
+[04Feb2025 17:35:41.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> kike estas
+[04Feb2025 17:37:24.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Zebra
+[04Feb2025 17:38:07.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Fire Dragon
+[04Feb2025 17:39:01.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was incinerated by Fire Dragon
+[04Feb2025 17:40:04.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Fire Dragon
+[04Feb2025 17:41:08.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 fell from a high place
+[04Feb2025 17:42:48.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was burnt to a crisp whilst fighting Fire Dragon
+[04Feb2025 17:44:55.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Termite
+[04Feb2025 17:47:27.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Termite
+[04Feb2025 17:47:27.373] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Server handling Packets.C2S_AttackRequest - No current attack hand!
+[04Feb2025 17:47:27.373] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Combo count: 4 is dual wielding: false
+[04Feb2025 17:47:27.373] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Main-hand stack: 0 air
+[04Feb2025 17:47:27.373] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Off-hand stack: 0 air
+[04Feb2025 17:47:27.373] [Netty Epoll Server IO #5/ERROR] [net.bettercombat.network.ServerNetwork/]: Selected slot server: 2 | client: 2
+[04Feb2025 17:49:15.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Rhinoceros
+[04Feb2025 17:51:02.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was impaled by Marauder
+[04Feb2025 17:51:58.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hay alguien?
+[04Feb2025 17:52:01.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> yo
+[04Feb2025 17:52:04.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] quienes estan
+[04Feb2025 17:52:07.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] solo estas tu?
+[04Feb2025 17:52:10.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] xd
+[04Feb2025 17:52:13.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> si
+[04Feb2025 17:52:19.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] y el jose?
+[04Feb2025 17:52:25.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> se fue
+[04Feb2025 17:52:37.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 fell from a high place
+[04Feb2025 17:52:38.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hace cuanto
+[04Feb2025 17:52:43.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> 10 min
+[04Feb2025 17:52:45.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> o 20
+[04Feb2025 17:53:47.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] go llamada
+[04Feb2025 17:53:54.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> yaya un rato
+[04Feb2025 17:54:08.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] pero antes de eso voy a cerrar el server y volverlo a prender
+[04Feb2025 17:54:17.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] es que lo deje en mi pc xd
