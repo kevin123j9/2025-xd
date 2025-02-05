@@ -10534,3 +10534,85 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [05Feb2025 01:08:03.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Guard
 [05Feb2025 01:09:45.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> entonces ya regresaras?
 [05Feb2025 01:10:08.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> cuando termine mi camino
+[05Feb2025 01:10:41.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 01:10:46.855] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: davisdrt[/127.215.198.66:51873] logged in with entity id 19784 at (1663.9385101949374, 59.51664577703443, -1398.180979190766)
+[05Feb2025 01:10:46.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt joined the game
+[05Feb2025 01:10:46.875] [Server thread/INFO] [Jade/]: Syncing config to davisdrt (74cb11a5-0b51-3278-a2bf-301ecf3b38d0)
+[05Feb2025 01:10:48.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> me estreso
+[05Feb2025 01:10:51.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> entro
+[05Feb2025 01:10:51.124] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.125] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.125] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.125] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.172] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.22, y=59.37, z=-1400.40]
+[05Feb2025 01:10:51.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: davisdrt was slain by Sea Serpent
+[05Feb2025 01:10:51.598] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.36, y=58.81, z=-1401.27]
+[05Feb2025 01:10:51.598] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.36, y=58.81, z=-1401.27]
+[05Feb2025 01:10:51.599] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.36, y=58.81, z=-1401.27]
+[05Feb2025 01:10:51.599] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.36, y=58.81, z=-1401.27]
+[05Feb2025 01:10:51.640] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.44, y=58.58, z=-1402.38]
+[05Feb2025 01:10:51.641] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.44, y=58.58, z=-1402.38]
+[05Feb2025 01:10:51.641] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.44, y=58.58, z=-1402.38]
+[05Feb2025 01:10:51.641] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.44, y=58.58, z=-1402.38]
+[05Feb2025 01:10:51.692] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.50, y=58.37, z=-1403.37]
+[05Feb2025 01:10:51.693] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.50, y=58.37, z=-1403.37]
+[05Feb2025 01:10:51.693] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.50, y=58.37, z=-1403.37]
+[05Feb2025 01:10:51.693] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.50, y=58.37, z=-1403.37]
+[05Feb2025 01:10:51.741] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.56, y=58.19, z=-1404.27]
+[05Feb2025 01:10:51.741] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.56, y=58.19, z=-1404.27]
+[05Feb2025 01:10:51.742] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.56, y=58.19, z=-1404.27]
+[05Feb2025 01:10:51.742] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.56, y=58.19, z=-1404.27]
+[05Feb2025 01:10:51.783] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.61, y=58.03, z=-1405.08]
+[05Feb2025 01:10:51.783] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.61, y=58.03, z=-1405.08]
+[05Feb2025 01:10:51.784] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.61, y=58.03, z=-1405.08]
+[05Feb2025 01:10:51.784] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.61, y=58.03, z=-1405.08]
+[05Feb2025 01:10:51.825] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.66, y=57.89, z=-1405.81]
+[05Feb2025 01:10:51.825] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.66, y=57.89, z=-1405.81]
+[05Feb2025 01:10:51.826] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.66, y=57.89, z=-1405.81]
+[05Feb2025 01:10:51.826] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.66, y=57.89, z=-1405.81]
+[05Feb2025 01:10:51.872] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.70, y=57.76, z=-1406.46]
+[05Feb2025 01:10:51.873] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.70, y=57.76, z=-1406.46]
+[05Feb2025 01:10:51.873] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.70, y=57.76, z=-1406.46]
+[05Feb2025 01:10:51.873] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.70, y=57.76, z=-1406.46]
+[05Feb2025 01:10:51.917] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.74, y=57.64, z=-1407.05]
+[05Feb2025 01:10:51.918] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.74, y=57.64, z=-1407.05]
+[05Feb2025 01:10:51.918] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.74, y=57.64, z=-1407.05]
+[05Feb2025 01:10:51.918] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.74, y=57.64, z=-1407.05]
+[05Feb2025 01:10:51.964] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.78, y=57.54, z=-1407.58]
+[05Feb2025 01:10:51.964] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.78, y=57.54, z=-1407.58]
+[05Feb2025 01:10:51.964] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.78, y=57.54, z=-1407.58]
+[05Feb2025 01:10:51.964] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.78, y=57.54, z=-1407.58]
+[05Feb2025 01:10:52.011] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19878, l='ServerLevel[world]', x=1664.81, y=57.44, z=-1408.06]
+[05Feb2025 01:10:52.011] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19879, l='ServerLevel[world]', x=1664.81, y=57.44, z=-1408.06]
+[05Feb2025 01:10:52.012] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19880, l='ServerLevel[world]', x=1664.81, y=57.44, z=-1408.06]
+[05Feb2025 01:10:52.012] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySlowPart['Part'/19881, l='ServerLevel[world]', x=1664.81, y=57.44, z=-1408.06]
+[05Feb2025 01:10:53.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> el porque
+[05Feb2025 01:10:57.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+[05Feb2025 01:11:15.066] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[05Feb2025 01:11:17.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <davisdrt> wenas xd
+[05Feb2025 01:11:23.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> por eso tenemos que hacer los caminos largos juntos
+[05Feb2025 01:11:29.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> david sale llamda?
+[05Feb2025 01:11:32.219] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[05Feb2025 01:11:37.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <davisdrt> ya p
+[05Feb2025 01:11:41.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> llam
+[05Feb2025 01:11:53.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Sea Serpent
+[05Feb2025 01:11:53.925] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[05Feb2025 01:11:56.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <davisdrt> gustabo puedes?
+[05Feb2025 01:12:02.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> proque aparecio
+[05Feb2025 01:13:38.068] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[05Feb2025 01:13:45.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 01:13:49.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> siii
+[05Feb2025 01:13:52.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> lo queme
+[05Feb2025 01:14:00.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gustavo
+[05Feb2025 01:14:03.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> sale llamda?
+[05Feb2025 01:14:49.668] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[05Feb2025 01:15:32.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 01:16:16.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[05Feb2025 01:16:34.474] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[05Feb2025 01:17:16.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
+[05Feb2025 01:17:47.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 01:17:59.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 01:18:39.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
