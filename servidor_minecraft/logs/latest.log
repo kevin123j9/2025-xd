@@ -10500,3 +10500,21 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [05Feb2025 00:49:28.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> ayuda
 [05Feb2025 00:49:33.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> manda coord
 [05Feb2025 00:49:35.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> estoy trabado
+[05Feb2025 00:49:39.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> con?
+[05Feb2025 00:49:41.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> barco?
+[05Feb2025 00:50:21.818] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 789123 lost connection: Disconnected
+[05Feb2025 00:50:21.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 left the game
+[05Feb2025 00:50:58.017] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 789123[/127.117.137.247:52525] logged in with entity id 4892 at (218.69999998807907, 62.690748832570264, -2039.699999988079)
+[05Feb2025 00:50:58.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 joined the game
+[05Feb2025 00:50:58.039] [Server thread/INFO] [Jade/]: Syncing config to 789123 (8dee5df8-aa2c-3636-ba39-85e868cf3747)
+[05Feb2025 00:51:40.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was slain by Vindicator
+[05Feb2025 00:51:48.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> sxd
+[05Feb2025 00:52:29.802] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class com.pikachu.mod.illager_more.CombatEvent
+[05Feb2025 00:53:34.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> matare a esas sirenas}
+[05Feb2025 00:53:37.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
+[05Feb2025 00:54:30.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> zz
+[05Feb2025 00:54:45.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> gustavo pa cuando regresas
+[05Feb2025 00:54:54.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <789123> pa cuando mi camino regrese
+[05Feb2025 00:55:34.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kevin123j2> que camino xd
+[05Feb2025 00:56:22.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 hit the ground too hard
+[05Feb2025 00:59:53.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 789123 was shot by Pillager
