@@ -510,6 +510,7 @@
       "minecraft:cave_spider": "2025-01-17 19:50:20 +0000",
       "minecraft:stray": "2025-01-17 01:45:56 +0000",
       "minecraft:silverfish": "2025-02-03 21:36:10 +0000",
+      "minecraft:enderman": "2025-02-04 23:37:35 +0000",
       "minecraft:vex": "2025-01-20 23:05:06 +0000",
       "minecraft:zombie": "2025-01-08 16:35:12 +0000",
       "minecraft:drowned": "2025-01-29 23:14:16 +0000",
@@ -1225,12 +1226,6 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:horrorofthe_depths": {
-    "criteria": {
-      "horrorofthe_depths_0": "2025-02-04 23:19:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2025-02-04 22:07:50 +0000"
@@ -1240,6 +1235,18 @@
   "iceandfire:iceandfire/dragon_staff": {
     "criteria": {
       "bestiary": "2025-02-04 22:54:54 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2025-02-04 23:19:08 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-02-04 23:56:04 +0000"
     },
     "done": true
   },

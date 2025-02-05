@@ -1409,5 +1409,11 @@
     },
     "done": true
   },
+  "atmospheric:husbandry/find_orange": {
+    "criteria": {
+      "find_orange": "2025-02-05 00:12:19 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
